@@ -8,6 +8,7 @@ h1 {
     width: 40%;
     margin-left: 30%;
     margin-right: 30%;
+    text-align: center;
     color: white;
     font-size: 60px;
     text-shadow:2px 3px 0 rgba(0,0,0,.11);
@@ -64,4 +65,20 @@ h1 {
     display: none;
     padding: 2px;
     border: solid;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: #2E2E2E;
+    float: left;
+    position: relative;
+}
+
+.footerScore {
+    display: block;
+    color: #f1c40f;
+    margin-left: 10%;
+	font-size: 20px;
+    list-style-type: none;
 }
