@@ -1,11 +1,11 @@
 var gamesList = {
   "GameList": [
     {
-      data: "00/00/00",
-      title: "Game title",
+      data: "11/10/15",
+      title: "Metal Gear Solid",
       rank: 5,
       positive: [
-        "Plot twist",
+        "Hideo Kojima",
         "Amazing history",
         "Story Rich"
       ],
@@ -16,13 +16,12 @@ var gamesList = {
       ]
     },
     {
-      data: "00/00/00",
-      title: "Game title 2",
+      data: "05/02/13",
+      title: "Super Mario Bros",
       rank: 4,
       positive: [
         "Plot twist 2",
-        "Amazing history 2",
-        "Story Rich 2"
+        "Amazing history 2"
       ],
       negative: [
         "Bugs 2",
@@ -31,8 +30,8 @@ var gamesList = {
       ]
     },
     {
-      data: "00/00/00",
-      title: "Game title 3",
+      data: "08/10/16",
+      title: "Chrono Trigger",
       rank: 2,
       positive: [
         "Plot twist 2",
@@ -41,8 +40,7 @@ var gamesList = {
       ],
       negative: [
         "Bugs 2",
-        "Lags 2",
-        "Repetitive 2"
+        "Lags 2"
       ]
     }
   ]

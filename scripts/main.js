@@ -37,6 +37,8 @@
         }
     }
 
+    $("#total-games").text(" - Total: " + g + " - ");
+
     $(".box").mouseenter(function () {
         $(this).animate({ height: '+=150px' })
         .children(".tags").find(".tag").show();
