@@ -9,28 +9,24 @@
                             "<div class=\"positive\"></div>" +
                             "<div class=\"negative\"></div>" +
                         "</div></div></li>");
-        
-        var rank = "";
 
         switch (gamesList.GameList[g].rank) {
             case 1:
-                rank = "✮";
+                $("#" + g).children(".score").text("✮").addClass("rank-avoid");
                 break;
             case 2:
-                rank = "✮ ✮";
+                $("#" + g).children(".score").text("✮ ✮").addClass("rank-bad");
                 break;
             case 3:
-                rank = "✮ ✮ ✮";
+                $("#" + g).children(".score").text("✮ ✮ ✮").addClass("rank-good");
                 break;
             case 4:
-                rank = "✮ ✮ ✮ ✮";
+                $("#" + g).children(".score").text("✮ ✮ ✮ ✮").addClass("rank-great");
                 break;
             case 5:
-                rank = "✮ ✮ ✮ ✮ ✮";
+                $("#" + g).children(".score").text("✮ ✮ ✮ ✮ ✮").addClass("rank-masterpiece");
                 break;
         }
-
-        $("#" + g).children(".score").text(rank);
 
         for (var i = 0; i < gamesList.GameList[g].positive.length; i++) {
             $("#" + g).children(".tags").children(".positive").append("<div class=\"tag\">" + " + " + gamesList.GameList[g].positive[i] + "</div>");
@@ -42,12 +38,12 @@
     }
 
     $(".box").mouseenter(function () {
-        $(this).animate({ height: '+=100px' })
+        $(this).animate({ height: '+=150px' })
         .children(".tags").find(".tag").show();
 
     })
     .mouseleave(function () {
-        $(this).animate({ height: '-=100px' })
+        $(this).animate({ height: '-=150px' })
         .children(".tags").find(".tag").hide();
     });
 

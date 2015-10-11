@@ -61,7 +61,6 @@ h1 {
 .positive {
     float: left;
     background-color: #2ecc71;
-    
 }
 
 .negative {
@@ -71,11 +70,11 @@ h1 {
 
 .tag {
     display: none;
-    padding: 2px;
+    padding: 10px;
     border: solid;
 }
 
-.footer {
+footer {
     margin-top: 10%;
     width: 100%;
     height: auto;
@@ -88,8 +87,27 @@ h1 {
 
 .footerScore {
     display: block;
-    color: #f1c40f;
     margin-left: 10%;
 	font-size: 20px;
     list-style-type: none;
+}
+
+.rank-masterpiece {
+    color: #f1c40f;
+}
+
+.rank-great {
+    color: #ffe168;
+}
+
+.rank-good {
+    color: #fff0b6;
+}
+
+.rank-bad {
+    color: #e74c3c;
+}
+
+.rank-avoid {
+    color: #8d3026;
 }
