@@ -53,18 +53,18 @@ h1 {
 	font-size: 30px;
 }
 
-#tags {
+.tags {
     margin-top: 1%;
     color: white;
 }
 
-#positive {
+.positive {
     float: left;
     background-color: #2ecc71;
     
 }
 
-#negative {
+.negative {
     float: left;
     background-color: #EE8277;
 }
