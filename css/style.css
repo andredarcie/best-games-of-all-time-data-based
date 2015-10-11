@@ -14,6 +14,14 @@ h1 {
     text-shadow:2px 3px 0 rgba(0,0,0,.11);
 }
 
+#github-buttons {
+    background-color: #2980b9;
+    height: 50px;
+    padding-left: 43%;
+    padding-top: 1%;
+}
+
+
 .box {
     background-color: #ffffff;
     width: 50%;
@@ -46,7 +54,7 @@ h1 {
 }
 
 #tags {
-    margin-top: 2%;
+    margin-top: 1%;
     color: white;
 }
 
@@ -68,11 +76,14 @@ h1 {
 }
 
 .footer {
+    margin-top: 10%;
     width: 100%;
     height: auto;
+    bottom: 0;
     background: #2E2E2E;
     float: left;
     position: relative;
+
 }
 
 .footerScore {
