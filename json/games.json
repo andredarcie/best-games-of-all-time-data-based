@@ -1,0 +1,49 @@
+var gamesList = {
+  "GameList": [
+    {
+      data: "00/00/00",
+      title: "Game title",
+      rank: 5,
+      positive: [
+        "Plot twist",
+        "Amazing history",
+        "Story Rich"
+      ],
+      negative: [
+        "Bugs",
+        "Lags",
+        "Repetitive"
+      ]
+    },
+    {
+      data: "00/00/00",
+      title: "Game title 2",
+      rank: 4,
+      positive: [
+        "Plot twist 2",
+        "Amazing history 2",
+        "Story Rich 2"
+      ],
+      negative: [
+        "Bugs 2",
+        "Lags 2",
+        "Repetitive 2"
+      ]
+    },
+    {
+      data: "00/00/00",
+      title: "Game title 3",
+      rank: 2,
+      positive: [
+        "Plot twist 2",
+        "Amazing history 2",
+        "Story Rich 2"
+      ],
+      negative: [
+        "Bugs 2",
+        "Lags 2",
+        "Repetitive 2"
+      ]
+    }
+  ]
+} 
