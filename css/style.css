@@ -38,6 +38,14 @@ h1#title {
     box-shadow:0 5px 5px rgba(0,0,0,.05);
 }
 
+.box.year{
+    background-color: #34495e;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
 .data {
     color: #95a5a6;
     font-size: 15px;

@@ -1,7 +1,17 @@
 ﻿$(document).ready(function () {
+    
+    var year = (gamesList.GameList[0].data[6] + gamesList.GameList[0].data[7]);
 
     for (var g = 0; g < gamesList.GameList.length; g++) {
-        $("ol").append("<li class=\"box\" id=" + g + ">" +
+        
+        var currentYear = (gamesList.GameList[g].data[6] + gamesList.GameList[g].data[7]);
+
+        if (currentYear != year) {
+            $("ol").append("<li class=\"box year\"> - 20" + currentYear + " - </li>");
+            year = currentYear;
+        } 
+
+        $("ol").append("<li class=\"box games\" id=" + g + ">" +
                         "<div class=\"data\">" + gamesList.GameList[g].data + "</div>" +
                         "<div class=\"title\">" + gamesList.GameList[g].title + "</div>" +
                         "<div class=\"score\"></div>" +
@@ -39,7 +49,7 @@
 
     $("#total-games").text(" - Total: " + g + " - ");
 
-    $(".box").mouseenter(function () {
+    $(".box.games").mouseenter(function () {
         $(this).animate({ height: '+=150px' })
         .children(".tags").find(".tag").show();
 

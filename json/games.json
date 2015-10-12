@@ -1,7 +1,7 @@
 var gamesList = {
   "GameList": [
     {
-      data: "11/10/15",
+      data: "11/10/10",
       title: "Metal Gear Solid",
       rank: 5,
       positive: [
@@ -16,7 +16,7 @@ var gamesList = {
       ]
     },
     {
-      data: "05/02/13",
+      data: "05/02/10",
       title: "Super Mario Bros",
       rank: 4,
       positive: [
