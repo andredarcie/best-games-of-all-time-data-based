@@ -39,8 +39,19 @@ h1#title {
 }
 
 .box.year{
-    background-color: #34495e;
+    background-color: #2980b9;
     height: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.box.super{
+    background-color: #34495e;
+    width: 51%;
+    margin-left: 24.5%;
+    margin-right: 24.5%;
+    height: 40px;
     text-align: center;
     font-size: 30px;
     color: white;

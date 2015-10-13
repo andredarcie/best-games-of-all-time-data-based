@@ -1,5 +1,20 @@
 ﻿$(document).ready(function () {
     
+    $.ajax({
+        type: "GET",
+        url: "https://en.wikipedia.org/wiki/JavaScript",
+        crossDomain: true,
+        dataType: "text/html",
+        headers: { 'Api-User-Agent': 'Example/1.0' },
+        success: function (data) {
+            console.log(data);
+            // do something with server response data
+        },
+        error: function (err) {
+            // handle your error logic here
+        }
+    });
+
     var year = (gamesList.GameList[0].data[6] + gamesList.GameList[0].data[7]);
 
     for (var g = 0; g < gamesList.GameList.length; g++) {
@@ -7,11 +22,11 @@
         var currentYear = (gamesList.GameList[g].data[6] + gamesList.GameList[g].data[7]);
 
         if (currentYear != year) {
-            $("ol").append("<li class=\"box year\"> - 20" + currentYear + " - </li>");
+            $("ol#beat").append("<li class=\"box year\"> - 20" + currentYear + " - </li>");
             year = currentYear;
         } 
 
-        $("ol").append("<li class=\"box games\" id=" + g + ">" +
+        $("ol#beat").append("<li class=\"box games\" id=" + g + ">" +
                         "<div class=\"data\">" + gamesList.GameList[g].data + "</div>" +
                         "<div class=\"title\">" + gamesList.GameList[g].title + "</div>" +
                         "<div class=\"score\"></div>" +
