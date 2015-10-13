@@ -1,5 +1,6 @@
 ﻿$(document).ready(function () {
     
+    /*
     $.ajax({
         type: "GET",
         url: "https://en.wikipedia.org/wiki/JavaScript",
@@ -14,6 +15,7 @@
             // handle your error logic here
         }
     });
+    */
 
     var year = (gamesList.GameList[0].data[6] + gamesList.GameList[0].data[7]);
 

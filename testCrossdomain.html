@@ -1,8 +1,9 @@
-﻿//web page you want to get the source code
+﻿<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>
+//web page you want to get the source code
 var your_url = 'http://www.metacritic.com/game/pc/undertale';
 
 // jquery.xdomainajax.js  ------ from padolsey
-
 jQuery.ajax = (function(_ajax){
 
     var protocol = location.protocol,
@@ -83,4 +84,5 @@ $.ajax({
         //console.log($html.html());
     }
 });
+</script>
 
