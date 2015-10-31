@@ -142,7 +142,7 @@ footer {
 }
 
 .rank-good {
-    color: #fff0b6;
+    color: #bdc3c7;
 }
 
 .rank-bad {
@@ -152,3 +152,110 @@ footer {
 .rank-avoid {
     color: #8d3026;
 }
+
+/* Stars Glow Effect*/
+.rank-masterpiece {
+  color: #f1c40f;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation: masterpiece 3s ease-in-out infinite alternate;
+  -moz-animation: masterpiece 3s ease-in-out infinite alternate;
+  animation: masterpiece 3s ease-in-out infinite alternate;
+  animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes masterpiece {
+  from{
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #f1c40f, 0 0 6px #f1c40f, 0 0 7px #f1c40f, 0 0 8px #f1c40f, 0 0 10px #f1c40f;
+  }
+  to {
+    text-shadow: 0 0 0 0, 0 0 1px #f1c40f, 0 0 2px #f1c40f, 0 0 3px #f1c40f, 0 0 4px #f1c40f;
+  }
+}
+
+.rank-great {
+  color: #ffe168;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation: great 3s ease-in-out infinite alternate;
+  -moz-animation: great 3s ease-in-out infinite alternate;
+  animation: great 3s ease-in-out infinite alternate;
+  animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes great {
+  from{
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #ffe168, 0 0 6px #ffe168, 0 0 7px #ffe168, 0 0 8px #ffe168, 0 0 10px #ffe168;
+  }
+  to {
+    text-shadow: 0 0 0 0, 0 0 1px #ffe168, 0 0 2px #ffe168, 0 0 3px #ffe168, 0 0 4px #ffe168;
+  }
+}
+
+.rank-good {
+  color: #bdc3c7;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation: good 3s ease-in-out infinite alternate;
+  -moz-animation: good 3s ease-in-out infinite alternate;
+  animation: good 3s ease-in-out infinite alternate;
+  animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes good {
+  from{
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #bdc3c7, 0 0 6px #bdc3c7, 0 0 7px #bdc3c7, 0 0 8px #bdc3c7, 0 0 10px #bdc3c7;
+  }
+  to {
+    text-shadow: 0 0 0 0, 0 0 1px #bdc3c7, 0 0 2px #bdc3c7, 0 0 3px #bdc3c7, 0 0 4px #bdc3c7;
+  }
+}
+
+.rank-bad {
+  color: #cd7f32;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation: bad 3s ease-in-out infinite alternate;
+  -moz-animation: bad 3s ease-in-out infinite alternate;
+  animation: bad 3s ease-in-out infinite alternate;
+  animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes bad {
+  from{
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #cd7f32, 0 0 6px #cd7f32, 0 0 7px #cd7f32, 0 0 8px #cd7f32, 0 0 10px #cd7f32;
+  }
+  to {
+    text-shadow: 0 0 0 0, 0 0 1px #cd7f32, 0 0 2px #cd7f32, 0 0 3px #cd7f32, 0 0 4px #cd7f32;
+  }
+}
+
+.rank-avoid {
+  color: #e74c3c;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation: avoid 3s ease-in-out infinite alternate;
+  -moz-animation: avoid 3s ease-in-out infinite alternate;
+  animation: avoid 3s ease-in-out infinite alternate;
+  animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes avoid {
+  from{
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px #e74c3c, 0 0 6px #e74c3c, 0 0 7px #e74c3c, 0 0 8px #e74c3c, 0 0 10px #e74c3c;
+  }
+  to {
+    text-shadow: 0 0 0 0, 0 0 1px #e74c3c, 0 0 2px #e74c3c, 0 0 3px #e74c3c, 0 0 4px #e74c3c;
+  }
+}
+
