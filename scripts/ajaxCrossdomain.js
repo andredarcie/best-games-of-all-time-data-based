@@ -1,4 +1,5 @@
-﻿//<script type="text/javascript">
+﻿/*
+//<script type="text/javascript">
     //URL DA PÁGINA
     var your_url = ' ';
 //</script>
@@ -88,3 +89,4 @@ $.ajax({
     }
 });
 
+*/
