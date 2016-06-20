@@ -1,6 +1,23 @@
 ﻿$(document).ready(function () {
-    
+
     var year = (gamesList.GameList[0].data[6] + gamesList.GameList[0].data[7]);
+
+
+    //console.log(games.firstGeneration[0].title);
+
+    for (var i = 0; i < games.length; i++){
+
+      $(".container").append("<article class='" + games[i].class + "'> <h2 class='title-generation'>"
+      + games[i].title + "<span class='generation-period'> " + games[i].period + "</span></h2>"
+      + "<ol id='" + games[i].class + "-list'></ol></article>");
+
+      var gameList = games[i].gameList;
+
+      for (var o = 0; o < gameList.length; o++){
+        $("#" + games[i].class + "-list").append("<li> " + gameList[o].title + "</li>");
+      }
+      
+    }
 
     for (var g = 0; g < gamesList.GameList.length; g++) {
 
