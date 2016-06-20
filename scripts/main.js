@@ -1,43 +1,15 @@
 ﻿$(document).ready(function () {
     
-    /*
-    $.ajax({
-        type: "GET",
-        url: "http://www.metacritic.com/browse/games/score/metascore/all/all/filtered?sort=desc",
-        crossDomain: true,
-        dataType: "text/html",
-        headers: { 'Api-User-Agent': 'Example/1.0' },
-        success: function (data) {
-            console.log(data);
-            var $html = $('<div />', { html: data.responseText });
-            //console.log($('div', $html).text());
-
-            $('div.product_row', $html).each(function (i, $html) {
-                console.log("Nota do jogo: " + $(this).find('.metascore_w').text());
-                console.log("Titulo do jogo: " + $(this).find('.product_title').text().replace(/\s/g, ''));
-                console.log("Link: " + "http://www.metacritic.com" + $(this).find('a').attr('href'));
-
-            });
-
-            //console.log($html.find('div.product_title').text());
-            //console.log($html.find('div.metascore_w').text());
-        },
-        error: function (err) {
-            // handle your error logic here
-        }
-    });
-    */
-
     var year = (gamesList.GameList[0].data[6] + gamesList.GameList[0].data[7]);
 
     for (var g = 0; g < gamesList.GameList.length; g++) {
-        
+
         var currentYear = (gamesList.GameList[g].data[6] + gamesList.GameList[g].data[7]);
 
         if (currentYear != year) {
             $("ol#beat").append("<li class=\"box year\"> - 20" + currentYear + " - </li>");
             year = currentYear;
-        } 
+        }
 
         $("ol#beat").append("<li class=\"box games\" id=" + g + ">" +
                         "<div class=\"data\">" + gamesList.GameList[g].data + "</div>" +
