@@ -1,4 +1,4 @@
-# GameList
+# History of Video Games
 Simple list with your games.
 
 JSON file that represents the data of the games:
