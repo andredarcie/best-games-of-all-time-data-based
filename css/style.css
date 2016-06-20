@@ -1,4 +1,47 @@
-﻿body {
+.first-generation {
+  background-color:#1dd2af;
+}
+
+.second-generation {
+  background-color:#2ecc71;
+}
+
+.third-generation {
+  background-color:#27ae60;
+}
+
+.fourth-generation {
+  background-color:#3498db;
+}
+
+.fifth-generation {
+  background-color:#2980b9;
+}
+
+.sixth-generation {
+  background-color:#9b59b6;
+}
+
+.seventh-generation {
+  background-color:#8e44ad;
+}
+
+.eighth-generation {
+  background-color:#34495e;
+}
+
+.title-generation {
+    color: white;
+    text-align: left;
+    padding: 5px;
+    margin: 0;
+}
+
+.generation-period {
+  font-size: 60%;
+}
+
+body {
     background-color: #3498db;
     font-family: 'Open Sans', sans-serif;
     font-size: large;
@@ -258,4 +301,3 @@ footer {
     text-shadow: 0 0 0 0, 0 0 1px #e74c3c, 0 0 2px #e74c3c, 0 0 3px #e74c3c, 0 0 4px #e74c3c;
   }
 }
-
