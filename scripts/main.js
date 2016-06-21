@@ -32,7 +32,7 @@
                                                     "<p> <i class='fa fa-puzzle-piece' aria-hidden='true'></i> genre: " + game.genre + "</p>" +
                                                     "<p> <i class='fa fa-file-text' aria-hidden='true'></i> \"best games ever\" lists: " + [ game.lists || "0" ] + "</p>" +
                                                     "<p> <i class='fa fa-trophy' aria-hidden='true'></i> GOTY's: " + [ game.gotyNumbers || "0" ] + "</p>" +
-                                                 "</li><div style='height:1px; background:#717171; border-bottom:1px solid #313030;'></div>");
+                                                 "</li>");
       }
 
     }
