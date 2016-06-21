@@ -26,9 +26,9 @@
                                                     "<h3 class='game-title'>" + game.title  + "</h3> " +
                                                     "<p>" + game.description + "</p>" +
                                                     "<p> developer: " + game.developer + "</p>" +
-                                                    "<p> platform: " + game.platform + "</p>" +
+                                                    "<p> <i class='fa fa-cube' aria-hidden='true'></i> platform: " + game.platform + "</p>" +
                                                     "<p> genre: " + game.genre + "</p>" +
-                                                    "<a style='text-decoration: none; color: #7f8c8d' href='" + game.videoURL + "'> <i class='fa fa-youtube-play' aria-hidden='true'></i> gameplay video </a>" +
+                                                    "<a style='text-decoration: none; color: #7f8c8d' href='" + game.videoURL + "?rel=0&autoplay=1'> <i class='fa fa-youtube-play' aria-hidden='true'></i> gameplay video </a>" +
                                                  "</li>");
       }
 
