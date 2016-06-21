@@ -22,13 +22,16 @@
         var game = gameList[o];
 
         $("#" + games[i].class + "-list").append("<li style='text-align: center'>" +
-                                                    "<h4 class='game-release-year'>- " + game.releaseYear + " -</h4>" +
+                                                    "<h4 class='game-release-year'>- " + game.releaseYear +  " -</h4>" +
                                                     "<h3 class='game-title'>" + game.title  + "</h3> " +
-                                                    "<p>" + game.description + "</p>" +
-                                                    "<p> developer: " + game.developer + "</p>" +
+                                                    "<img src='" + game.imageUrl + "' alt='game image' style='width:128px;height:128px;'>" +
+                                                    "<p style='width: 50%; margin: 0 auto'> \"" + game.description + "\" </p></div>" +
+                                                    "<p> <i class='fa fa-users' aria-hidden='true'></i> developer: " + game.developer + "</p>" +
                                                     "<p> <i class='fa fa-cube' aria-hidden='true'></i> platform: " + game.platform + "</p>" +
-                                                    "<p> genre: " + game.genre + "</p>" +
-                                                    "<a style='text-decoration: none; color: #7f8c8d' href='" + game.videoURL + "?rel=0&autoplay=1'> <i class='fa fa-youtube-play' aria-hidden='true'></i> gameplay video </a>" +
+                                                    "<p> <i class='fa fa-puzzle-piece' aria-hidden='true'></i> genre: " + game.genre + "</p>" +
+                                                    "<p> <i class='fa fa-file-text' aria-hidden='true'></i> \"best games ever\" lists: " + [ game.lists || "0" ] + "</p>" +
+                                                    "<p> <i class='fa fa-trophy' aria-hidden='true'></i> GOTY's: " + [ game.gotyNumbers || "0" ] + "</p>" +
+                                                    "<a style='text-decoration: none; color: #7f8c8d' href='" + game.videoUrl + "?rel=0&autoplay=1'> <i class='fa fa-youtube-play' aria-hidden='true'></i> gameplay video </a>" +
                                                  "</li>");
       }
 
