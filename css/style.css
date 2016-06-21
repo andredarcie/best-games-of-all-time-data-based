@@ -41,6 +41,20 @@
   font-size: 60%;
 }
 
+/* Game Item */
+.game-release-year {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.game-title {
+  color: white;
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
     background-color: #3498db;
     font-family: 'Open Sans', sans-serif;
@@ -105,6 +119,7 @@ h1#title {
     font-size: 15px;
     width: 8%;
 }
+
 
 .title {
     float: left;

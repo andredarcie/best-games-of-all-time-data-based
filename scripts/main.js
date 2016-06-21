@@ -2,19 +2,34 @@
 
     var year = (gamesList.GameList[0].data[6] + gamesList.GameList[0].data[7]);
 
-
-    //console.log(games.firstGeneration[0].title);
-
     for (var i = 0; i < games.length; i++){
 
-      $(".container").append("<article class='" + games[i].class + "'> <h2 class='title-generation'>"
-      + games[i].title + "<span class='generation-period'> " + games[i].period + "</span></h2>"
-      + "<ol style='list-style-type: none; padding: 10px; margin: 0px' id='" + games[i].class + "-list'></ol></article>");
+      $(".container").append("<article class='" + games[i].class + "'>" +
+                             "<h2 class='title-generation'>" +
+                                  games[i].title +
+                                  "<span class='generation-period'> " +
+                                      games[i].period +
+                                  "</span>" +
+                              "</h2>" +
+                              "<ol style='list-style-type: none; padding: 10px; margin: 0px' id='" + games[i].class + "-list'>" +
+                              "</ol>" +
+                            "</article>");
 
       var gameList = games[i].gameList;
 
       for (var o = 0; o < gameList.length; o++){
-        $("#" + games[i].class + "-list").append("<li style='text-align: center'> - " + gameList[o].releaseYear + " - <br>" + gameList[o].title  + "</li>");
+
+        var game = gameList[o];
+
+        $("#" + games[i].class + "-list").append("<li style='text-align: center'>" +
+                                                    "<h4 class='game-release-year'>- " + game.releaseYear + " -</h4>" +
+                                                    "<h3 class='game-title'>" + game.title  + "</h3> " +
+                                                    "<p>" + game.description + "</p>" +
+                                                    "<p> developer: " + game.developer + "</p>" +
+                                                    "<p> platform: " + game.platform + "</p>" +
+                                                    "<p> genre: " + game.genre + "</p>" +
+                                                    "<a style='text-decoration: none; color: #7f8c8d' href='" + game.videoURL + "'> <i class='fa fa-youtube-play' aria-hidden='true'></i> gameplay video </a>" +
+                                                 "</li>");
       }
 
     }
