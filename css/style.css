@@ -1,3 +1,27 @@
+
+body {
+    background-color: #3498db;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.title {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    text-shadow:2px 3px 0 rgba(0,0,0,.11);
+}
+
+#github-buttons {
+    background-color: #2980b9;
+    height: 50px;
+    padding-left: 43%;
+    padding-top: 1%;
+}
+
 .first-generation {
   background-color:#1dd2af;
 }
@@ -41,7 +65,9 @@
   font-size: 60%;
 }
 
-/* Game Item */
+/*
+    <=== Game ===>
+*/
 .game-release-year {
   color: white;
   padding: 0px;
@@ -55,120 +81,21 @@
   margin: 0px;
 }
 
-body {
-    background-color: #3498db;
-    font-family: 'Open Sans', sans-serif;
-    font-size: large;
+.game-description {
+  width: 50%;
+  margin: 0 auto;
 }
 
-h1 {
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
-    text-align: center;
-    color: white;
-    font-size: 60px;
-    text-shadow:2px 3px 0 rgba(0,0,0,.11);
+.game-image {
+  width:128px;
+  height:128px;
+  border-radius: 10px;
 }
 
-h1#title {
-    font-size: 85px;
+.game-video {
+  text-decoration: none;
+  color: #eb6e60
 }
-
-#github-buttons {
-    background-color: #2980b9;
-    height: 50px;
-    padding-left: 43%;
-    padding-top: 1%;
-}
-
-
-.box {
-    background-color: #ffffff;
-    width: 50%;
-    height: 50px;
-    margin-left: 25%;
-    margin-right: 25%;
-    list-style: none;
-    padding: 1%;
-    margin-top: 1%;
-    box-shadow:0 5px 5px rgba(0,0,0,.05);
-}
-
-.box.year{
-    background-color: #2980b9;
-    height: 30px;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-}
-
-.box.super{
-    background-color: #34495e;
-    width: 51%;
-    margin-left: 24.5%;
-    margin-right: 24.5%;
-    height: 40px;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-}
-
-.data {
-    color: #95a5a6;
-    font-size: 15px;
-    width: 8%;
-}
-
-
-.title {
-    float: left;
-    display: block;
-    font-size: 20px;
-    margin-left: 3px;
-}
-
-.score {
-    display: block;
-    margin-left: 350px;
-    color: #f1c40f;
-	font-size: 30px;
-}
-
-.tags {
-    margin-top: 1%;
-    color: white;
-}
-
-.positive {
-    float: left;
-}
-
-.negative {
-    float: left;
-}
-
-.positive div{
-    background-color: #2ecc71;
-}
-
-.negative div{
-    background-color: #EE8277;
-}
-
-.tag {
-    display: none;
-    padding: 10px;
-    border: solid;
-    border-radius: 6px;
-}
-
-#total-games {
-    text-align: center;
-    color: white;
-    font-size: 15px;
-}
-
 /*
     <=== Footer ===>
 */
@@ -180,4 +107,21 @@ footer {
     background: #2E2E2E;
     float: left;
     position: relative;
+}
+
+
+
+@media (max-width: 767px)
+{
+  .title {
+    font-size: 35px;
+  }
+
+  .game-description {
+    width: 100%;
+  }
+
+  .fork-me {
+    visibility: hidden;
+  }
 }

@@ -24,9 +24,9 @@
         $("#" + games[i].class + "-list").append("<li style='text-align: center'>" +
                                                     "<h4 class='game-release-year'>- " + game.releaseYear +  " -</h4>" +
                                                     "<h3 class='game-title'>" + game.title  + "</h3> " +
-                                                    "<img src='" + game.imageUrl + "' alt='game image' style='width:128px; height:128px; border-radius: 10px;'>" +
-                                                    "<p style='width: 50%; margin: 0 auto'> \"" + game.description + "\" </p></div>" +
-                                                    "<a style='text-decoration: none; color: #eb6e60' href='" + game.videoUrl + "?rel=0&autoplay=1'> <i class='fa fa-youtube-play' aria-hidden='true'></i> gameplay video </a>" +
+                                                    "<img class='game-image' src='" + game.imageUrl + "' alt='game image'>" +
+                                                    "<p class='game-description'> \"" + game.description + "\" </p></div>" +
+                                                    "<a class='game-video' href='" + game.videoUrl + "?rel=0&autoplay=1'> <i class='fa fa-youtube-play' aria-hidden='true'></i> gameplay video </a>" +
                                                     "<p> <i class='fa fa-users' aria-hidden='true'></i> developer: " + game.developer + "</p>" +
                                                     "<p> <i class='fa fa-cube' aria-hidden='true'></i> platform: " + game.platform + "</p>" +
                                                     "<p> <i class='fa fa-puzzle-piece' aria-hidden='true'></i> genre: " + game.genre + "</p>" +
