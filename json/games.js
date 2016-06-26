@@ -50,6 +50,7 @@ var games = [
   {
     title: "First Generation",
     period: "1972–1978",
+    platforms: "Home Pong, Color TV",
     class: "first-generation",
     gameList: [
       {
@@ -67,6 +68,7 @@ var games = [
   {
     title: "Second Generation",
     period: "1976–1992",
+    platforms: "Atari 2600, Atari 5200, Game & Watch",
     class: "second-generation",
     gameList: [
       {
@@ -84,6 +86,7 @@ var games = [
   {
     title: "Third Generation",
     period: "1983–1995",
+    platforms: "Atari 7800, Atari XEGS, NES, SG-1000, Master System",
     class: "third-generation",
     gameList: [
       {
@@ -101,6 +104,7 @@ var games = [
   {
     title: "Fourth Generation",
     period: "1987–2003",
+    platforms: "Atari Lynx, SNES, Game Boy, Mega Drive/Genesis, Game Gear",
     class: "fourth-generation",
     gameList: [
       {
@@ -118,6 +122,7 @@ var games = [
   {
     title: "Fifth Generation",
     period: "1993–2005",
+    platforms: "Atari Jaguar, Nintendo 64, Game Boy Color, Sega Saturn, Genesis Nomad, PlayStation",
     class: "fifth-generation",
     gameList: [
       {
@@ -135,8 +140,59 @@ var games = [
   {
     title: "Sixth Generation",
     period: "1998–2013",
+    platforms: "Xbox, GameCube, Game Boy Advance, Dreamcast, PlayStation 2",
     class: "sixth-generation",
     gameList: [
+      {
+        releaseYear: "1998",
+        title: "SoulCalibur",
+        imageUrl: "https://i.ytimg.com/vi/VRb437OEXsA/maxresdefault.jpg",
+        description: "The mystical sword of the legends, the 'Soul Edge', ended up in the hands of the dreaded pirate Cervantes de Leon of Spain.",
+        developer: "Project Soul",
+        platform: "Dreamcast",
+        genre: "Fighting",
+        videoUrl: "https://www.youtube.com/embed/i-QsmLB35oo"
+      },
+      {
+        releaseYear: "1999",
+        title: "Shenmue",
+        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
+        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
+        developer: "Sega AM2",
+        platform: "Dreamcast",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+      },
+      {
+        releaseYear: "2000",
+        title: "Skies of Arcadia",
+        imageUrl: "http://www.seganerds.com/wp-content/uploads/2014/03/06-Skies-of-Arcadia-Legends.png",
+        description: "The game's story focuses around Vyse, a young air pirate in a Jules Verne-inspired fantasy world, and his friends as they attempt to stop the Valuan Empire from reviving ancient weapons with the potential to destroy the world.",
+        developer: "Overworks",
+        platform: "Dreamcast",
+        genre: "Role-playing",
+        videoUrl: "https://www.youtube.com/embed/Hk1SP-jjmzI"
+      },
+      {
+        releaseYear: "2001",
+        title: "Halo: Combat Evolved",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/2/23/Halo_-_Combat_Evolved_(screencap).jpg",
+        description: "Halo is set in the twenty-sixth century, with the player assuming the role of the Master Chief, a cybernetically enhanced supersoldier.",
+        developer: "Bungie",
+        platform: "Xbox",
+        genre: "First-person shooter",
+        videoUrl: "https://www.youtube.com/embed/1HKb4mpc6J4"
+      },
+      {
+        releaseYear: "2001",
+        title: "Super Smash Bros. Melee",
+        imageUrl: "http://199.101.98.242/media/images/66415-Super_Smash_Brothers_Melee-8.jpg",
+        description: "The game features characters from Nintendo video game franchises such as Mario, The Legend of Zelda, Star Fox, and Pokémon.",
+        developer: "HAL Laboratory",
+        platform: "GameCube",
+        genre: "Fighting",
+        videoUrl: "https://www.youtube.com/embed/D_plnbznR3M"
+      },
       {
         releaseYear: "2001",
         title: "Metal Gear Solid 2: Sons of Liberty",
@@ -146,12 +202,183 @@ var games = [
         platform: "PlayStation 2",
         genre: "Action-adventure, stealth",
         videoUrl: "https://www.youtube.com/embed/QVzTEHTFteY"
+      },
+      {
+        releaseYear: "2001",
+        title: "Ico",
+        imageUrl: "http://www.nonada.com.br/wp-content/uploads/2010/09/ico1.jpg",
+        description: "The protagonist is a young boy named Ico who was born with horns, which his village considers a bad omen. Warriors lock him away in an abandoned fortress.",
+        developer: "Team Ico",
+        platform: "PlayStation 2",
+        genre: "Puzzle-platformer",
+        videoUrl: "https://www.youtube.com/embed/ZeI9Zc71ChA"
+      },
+      {
+        releaseYear: "2001",
+        title: "Advance Wars",
+        imageUrl: "http://gamingmemoirs.co.uk/wp-content/uploads/2013/11/Advance-Wars-Screenshot.jpg?w=600",
+        description: "The story involves Orange Star Army's efforts in battling the other countries' armies, where Orange Star commanding officer Andy is accused of attacking the other countries' troops for no reason.",
+        developer: "Intelligent Systems",
+        platform: "Game Boy Advance",
+        genre: "Turn-based tactics",
+        videoUrl: "https://www.youtube.com/embed/gj07BISWs0U"
+      },
+      {
+        releaseYear: "2001",
+        title: "Final Fantasy X",
+        imageUrl: "https://c4.staticflickr.com/8/7680/17209565689_958ece0bf4_b.jpg",
+        description: "Set in the fantasy world of Spira, the game's story revolves around a group of adventurers and their quest to defeat a rampaging monster known as Sin.",
+        developer: "Square Product Development Division 1",
+        platform: "PlayStation 2",
+        genre: "Role-playing",
+        videoUrl: "https://www.youtube.com/embed/Udv5x2r-7xg"
+      },
+      {
+        releaseYear: "2001",
+        title: "Silent Hill 2",
+        imageUrl: "http://guide2games.org/wp-content/uploads/2008/03/silenthill2-4.jpg",
+        description: "It centers on James Sunderland, who enters the town after receiving a letter written by his deceased wife, saying she is waiting for him in their 'special place' in Silent Hill.",
+        developer: "Konami CET",
+        platform: "PlayStation 2",
+        genre: "Survival horror",
+        videoUrl: "https://www.youtube.com/embed/mqGrIkUlP-8"
+      },
+      {
+        releaseYear: "2001",
+        title: "Grand Theft Auto III",
+        imageUrl: "http://2.bp.blogspot.com/-7Lq-ICEdW54/TxRcjfq-xyI/AAAAAAAAAkM/7pi1nNF44fc/s1600/gta_3_android_hvga1.jpg",
+        description: "Set within the fictional Liberty City, based on New York City, the game follows Claude after he is left for dead and quickly becomes entangled in a world of gangs, crime and corruption.",
+        developer: "DMA Design",
+        platform: "PlayStation 2",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/RzI0Sqnm0mU"
+      },
+      {
+        releaseYear: "2002",
+        title: "Metroid Prime",
+        imageUrl: "http://metroid.retropixel.net/games/mprime/review_05.jpg",
+        description: "The player controls Link, the central protagonist of the Zelda series, who struggles with the evil king Ganondorf for control of a sacred relic known as the Triforce.",
+        developer: "Retro Studios",
+        platform: "GameCube",
+        genre: "First-person action-adventure",
+        videoUrl: "https://www.youtube.com/embed/tM2XmcFUy9E"
+      },
+      {
+        releaseYear: "2002",
+        title: "The Legend of Zelda: The Wind Waker",
+        imageUrl: "https://img.delvenetworks.com/gdX9KjCLT1wmBYosX6fyt0/CZImF5ieQ2cm7tfGnguT1g/ny_.540x302.jpeg",
+        description: "The player controls Link, the central protagonist of the Zelda series, who struggles with the evil king Ganondorf for control of a sacred relic known as the Triforce.",
+        developer: "Nintendo EAD",
+        platform: "GameCube",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/sFi8NB2PTw4"
+      },
+      {
+        releaseYear: "2003",
+        title: "Kingdom Hearts",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/6/68/Kingdom_Hearts_Battle_Screenshot.png",
+        description: "Kingdom Hearts is a crossover of various Disney settings based in a universe made specifically for the series.",
+        developer: "Square Enix",
+        platform: "PlayStation 2",
+        genre: "Action role-playing",
+        videoUrl: "https://www.youtube.com/embed/L2I5Q4glqbg"
+      },
+      {
+        releaseYear: "2003",
+        title: "Prince of Persia: The Sands of Time",
+        imageUrl: "http://199.101.98.242/media/images/66293-Prince_of_Persia_The_Sands_of_Time-2.jpg",
+        description: "The game follows an unnamed Prince whose father sacks a Maharaja's city at the instigation of its treacherous Vizier.",
+        developer: "Ubisoft Montreal",
+        platform: "PlayStation 2",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/sNh-LPwUOSI"
+      },
+      {
+        releaseYear: "2003",
+        title: "Star Wars: Knights of the Old Republic",
+        imageUrl: "https://lh4.ggpht.com/TKAU5s5mqBqj0mXOx0hzgKTuxYcHC8nonHJZOsJvzRS8Wi5_35hGxSeR-usdMpq_yA=h900",
+        description: "Players choose from three basic character classes at the beginning of the game, and later choose from three Jedi subclasses.",
+        developer: "BioWare",
+        platform: "Xbox",
+        genre: "Role-playing",
+        videoUrl: "https://www.youtube.com/embed/irnl-3B0qE0"
+      },
+      {
+        releaseYear: "2004",
+        title: "Half-Life 2",
+        imageUrl: "http://cdn.akamai.steamstatic.com/steam/apps/220/0000001864.600x338.jpg?t=1456860366",
+        description: "Some years after the events of Half-Life, protagonist Gordon Freeman is woken by the enigmatic G-Man to find the world has been taken over by the alien Combine.",
+        developer: "Valve Corporation",
+        platform: "PC",
+        genre: "First-person shooter",
+        videoUrl: "https://www.youtube.com/embed/zG3weSAw6yQ"
+      },
+      {
+        releaseYear: "2004",
+        title: "World of Warcraft",
+        imageUrl: "https://i.ytimg.com/vi/q7OC_9jkrlc/maxresdefault.jpg",
+        description: "Players control a character avatar within a game world in third- or first-person view, exploring the landscape, fighting various monsters, completing quests, and interacting with non-player characters (NPCs) or other players.",
+        developer: "Blizzard Entertainment",
+        platform: "PC",
+        genre: "Massively multiplayer online RPG",
+        videoUrl: "https://www.youtube.com/embed/tUdV_uNKnoY"
+      },
+      {
+        releaseYear: "2004",
+        title: "Metal Gear Solid 3: Snake Eater",
+        imageUrl: "https://fbsnowpalavras.files.wordpress.com/2015/10/2613731-mgs3_gp1_zps615a645e.jpeg",
+        description: "Set in 1964, the story centers on FOX operative Naked Snake as he attempts to rescue a weapons designer, sabotage an experimental superweapon, and assassinate his defected former boss.",
+        developer: "Konami Computer Entertainment Japan",
+        platform: "PlayStation 2",
+        genre: "Stealth",
+        videoUrl: "https://www.youtube.com/embed/IpYS5s248Rc"
+      },
+      {
+        releaseYear: "2004",
+        title: "Grand Theft Auto: San Andreas",
+        imageUrl: "http://vignette2.wikia.nocookie.net/gta/images/0/0b/Sweetekendl.jpeg/revision/latest?cb=20110205221941&path-prefix=pt",
+        description: "CJ finds his old friends and family in disarray, and over the course of the game he attempts to re-establish his old gang, clashes with corrupt cops, and gradually unravels the truth behind his mother's murder.",
+        developer: "Rockstar North",
+        platform: "PlayStation 2",
+        genre: "Third-person shooter",
+        videoUrl: "https://www.youtube.com/embed/NwsEf6WjgsA"
+      },
+      {
+        releaseYear: "2005",
+        title: "Resident Evil 4",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/4/42/Resident_Evil_4_Ganado_village.png",
+        description: "U.S. government special agent Leon S. Kennedy, who is sent on a mission to rescue Ashley Graham, the U.S. President's daughter who has been kidnapped by a sinister cult.",
+        developer: "Capcom Production",
+        platform: "GameCube",
+        genre: "Survival horror",
+        videoUrl: "https://www.youtube.com/embed/WOWI69uSonA"
+      },
+      {
+        releaseYear: "2005",
+        title: "Shadow of the Colossus",
+        imageUrl: "http://s.emuparadise.org/fup/up/154336-Shadow_of_the_Colossus_(Europe,_Australia)_(En,Fr,De,Es,It)-2.jpg",
+        description: "Young man named Wander who enters a forbidden land. Wander must travel across a vast expanse on horseback and defeat sixteen massive beings, known simply as colossi, in order to restore the life of a girl named Mono.",
+        developer: "Team Ico",
+        platform: "PlayStation 2",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/TG7GW8V4eSA"
+      },
+      {
+        releaseYear: "2006",
+        title: "Ōkami",
+        imageUrl: "http://fabricomagazine.com/wp-content/uploads/2012/12/okami-hd-9.jpg",
+        description: "Set sometime in classical Japanese history, the game combines several Japanese myths, legends and folklore to tell the story of how the land was saved from darkness by the Shinto sun goddess, named Amaterasu, who took the form of a white wolf.",
+        developer: "Clover Studio",
+        platform: "PlayStation 2",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/3AjQA5_k9hE"
       }
     ]
   },
   {
     title: "Seventh Generation",
     period: "2005–present",
+    platforms: "Xbox 360, Wii, Nintendo DS, PlayStation 3, PlayStation Portable",
     class: "seventh-generation",
     gameList: [
       {
@@ -329,6 +556,7 @@ var games = [
   {
     title: "Eighth Generation",
     period: "2012–present",
+    platforms: "Xbox One, Wii U, Nintendo 3DS, PlayStation 4, PlayStation Vita",
     class: "eighth-generation",
     gameList: [
       {
