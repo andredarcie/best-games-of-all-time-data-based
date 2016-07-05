@@ -56,7 +56,7 @@ var games = [
       {
         releaseYear: "1972",
         title: "Pong",
-        imageUrl: "https://i.ytimg.com/vi/e4VRgY3tkh0/hqdefault.jpg",
+        imageUrl: "./gifs/pong.gif",
         description: "Pong (marketed as PONG) is one of the earliest arcade video games and the very first sports arcade video game. It is a table tennis sports game featuring simple two-dimensional graphics.",
         developer: "Atari Inc",
         platform: "Arcade",
@@ -74,7 +74,87 @@ var games = [
       {
         releaseYear: "1978",
         title: "Space Invaders",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/en/2/20/SpaceInvaders-Gameplay.gif",
+        imageUrl: "./gifs/space-invaders.gif",
+        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
+        developer: "Taito",
+        platform: "Arcade",
+        genre: "Fixed shooter",
+        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+      },
+      {
+        releaseYear: "1978",
+        title: "Pac-Man",
+        imageUrl: "./gifs/pac-man.gif",
+        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
+        developer: "Taito",
+        platform: "Arcade",
+        genre: "Fixed shooter",
+        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+      },
+      {
+        releaseYear: "1978",
+        title: "Donkey Kong",
+        imageUrl: "./gifs/donkey-kong.gif",
+        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
+        developer: "Taito",
+        platform: "Arcade",
+        genre: "Fixed shooter",
+        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+      },
+      {
+        releaseYear: "1978",
+        title: "Galaga",
+        imageUrl: "./gifs/galaga.gif",
+        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
+        developer: "Taito",
+        platform: "Arcade",
+        genre: "Fixed shooter",
+        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+      },
+      {
+        releaseYear: "1978",
+        title: "Ms. Pac-Man",
+        imageUrl: "./gifs/ms-pac-man.gif",
+        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
+        developer: "Taito",
+        platform: "Arcade",
+        genre: "Fixed shooter",
+        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+      },
+      {
+        releaseYear: "1978",
+        title: "Robotron",
+        imageUrl: "./gifs/robotron.gif",
+        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
+        developer: "Taito",
+        platform: "Arcade",
+        genre: "Fixed shooter",
+        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+      },
+      {
+        releaseYear: "1978",
+        title: "Tetris",
+        imageUrl: "./gifs/tetris.gif",
+        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
+        developer: "Taito",
+        platform: "Arcade",
+        genre: "Fixed shooter",
+        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+      },
+      {
+        releaseYear: "1978",
+        title: "Punch-Out!!",
+        imageUrl: "https://i.kinja-img.com/gawker-media/image/upload/s--Ctb2_QLY--/c_scale,fl_progressive,q_80,w_800/akg0i24md8os94vjpejn.gif",
+        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
+        developer: "Taito",
+        platform: "Arcade",
+        genre: "Fixed shooter",
+        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+      },
+      {
+        releaseYear: "1978",
+        title: "Elite",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/c/c4/BBC_Micro_Elite_screenshot.png",
         description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
         developer: "Taito",
         platform: "Arcade",
@@ -92,7 +172,97 @@ var games = [
       {
         releaseYear: "1985",
         title: "Super Mario Bros.",
-        imageUrl: "http://gamefabrique.com/storage/screenshots/nes/super-mario-bros-1-02.png",
+        imageUrl: "./gifs/super-mario-bros.gif",
+        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        developer: "Nintendo R&D4",
+        platform: "NES",
+        genre: "Platformer",
+        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+      },
+      {
+        releaseYear: "1985",
+        title: "The Legend of Zelda",
+        imageUrl: "./gifs/the-legend-of-zelda.gif",
+        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        developer: "Nintendo R&D4",
+        platform: "NES",
+        genre: "Platformer",
+        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+      },
+      {
+        releaseYear: "1986",
+        title: "Metroid",
+        imageUrl: "./gifs/metroid.gif",
+        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        developer: "Nintendo R&D4",
+        platform: "NES",
+        genre: "Platformer",
+        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+      },
+      {
+        releaseYear: "1986",
+        title: "OutRun",
+        imageUrl: "./gifs/outrun.gif",
+        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        developer: "Nintendo R&D4",
+        platform: "NES",
+        genre: "Platformer",
+        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+      },
+      {
+        releaseYear: "1987",
+        title: "Contra",
+        imageUrl: "./gifs/contra.gif",
+        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        developer: "Nintendo R&D4",
+        platform: "NES",
+        genre: "Platformer",
+        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+      },
+      {
+        releaseYear: "1987",
+        title: "Double Dragon",
+        imageUrl: "http://www.arcade-museum.com/images/118/1181242103248.png",
+        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        developer: "Nintendo R&D4",
+        platform: "NES",
+        genre: "Platformer",
+        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+      },
+      {
+        releaseYear: "1987",
+        title: "R-Type",
+        imageUrl: "http://a1.mzstatic.com/us/r30/Purple2/v4/84/dd/c8/84ddc80d-229d-2c2d-ae0e-46b646217a4d/screen568x568.jpeg",
+        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        developer: "Nintendo R&D4",
+        platform: "NES",
+        genre: "Platformer",
+        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+      },
+      {
+        releaseYear: "1987",
+        title: "Tecmo Bowl",
+        imageUrl: "http://1.bp.blogspot.com/-zj4MkHXMiUE/VrFR7zRnxlI/AAAAAAAAKo4/v1bqjy0Kl9s/s1600/TecmoBowlFamicom.jpg",
+        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        developer: "Nintendo R&D4",
+        platform: "NES",
+        genre: "Platformer",
+        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+      },
+      {
+        releaseYear: "1988",
+        title: "Super Mario Bros. 3",
+        imageUrl: "http://www.emuparadise.me/fup/up/57076-Super_Mario_Bros._3_(Europe)-11.jpg",
+        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        developer: "Nintendo R&D4",
+        platform: "NES",
+        genre: "Platformer",
+        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+      },
+      {
+        releaseYear: "1988",
+        title: "Mega Man 2",
+        imageUrl: "http://199.101.98.242/media/images/56220-Mega_Man_2_(USA)-2.jpg",
         description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
         developer: "Nintendo R&D4",
         platform: "NES",
@@ -116,6 +286,176 @@ var games = [
         platform: "Super NES",
         genre: "Platforming",
         videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1990",
+        title: "The Legend of Zelda: A Link to the Past",
+        imageUrl: "http://gamehall.uol.com.br/galerias/_snes_zeldalinkpast/img_zeldalinkpast03.jpg",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1990",
+        title: "Street Fighter II",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/pt/4/46/Street_Fighter_II_(arcade)_screenshot.png",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1990",
+        title: "Sonic the Hedgehog",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/c/c1/SonicTheHedgehog1.png",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1990",
+        title: "Final Fantasy IV",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Ff4wiki.PNG/220px-Ff4wiki.PNG",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1990",
+        title: "Super Mario Kart",
+        imageUrl: "http://s.emuparadise.org/Super%20Nintendo/Snaps/Super%20Mario%20Kart%20(U).png",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1990",
+        title: "Sonic the Hedgehog 2",
+        imageUrl: "http://www.consoleclassix.com/info_img/Sonic_The_Hedgehog_2_GEN_ScreenShot3.jpg",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1993",
+        title: "Doom",
+        imageUrl: "http://www.unigamesity.com/wp-content/uploads//2008/11/doom_flash.jpg",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1993",
+        title: "Secret of Mana",
+        imageUrl: "http://gamefabrique.com/storage/screenshots/snes/secret-of-mana-05.png",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1993",
+        title: "The Legend of Zelda: Link's Awakening",
+        imageUrl: "http://somosnintendo.com/wp-content/uploads/2014/06/67645-Legend_of_Zelda_The_-_Links_Awakening_DX_USA_Europe_Rev_A-2-thumb.png",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1993",
+        title: "Gunstar Heroes",
+        imageUrl: "http://filmesegames.com.br/wp-content/uploads/2014/01/gunstar_heroes-1.jpg",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1993",
+        title: "Daytona USA",
+        imageUrl: "http://2.bp.blogspot.com/-h7iSY1SeVvY/Tixz9EbBXGI/AAAAAAAAA8U/ajp6z35GLaM/s1600/20090209_daytona_usa_93_2.png",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1993",
+        title: "Super Metroid",
+        imageUrl: "http://199.101.98.242/media/images/35794-Super_Metroid_(Japan,_USA)_(En,Ja)_[Hack_by_Banana_Oyaji_v1.06]_(~Metroid_Legacy)-5.jpg",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1993",
+        title: "Final Fantasy VI",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/d/df/WikibattleFF6.PNG",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1993",
+        title: "EarthBound",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/a/ac/Mother_2_Summers.png",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1993",
+        title: "Star Wars: TIE Fighter",
+        imageUrl: "http://www.lakebit.com/wp-content/uploads/2014/12/tie-fighter-space-combat.jpg",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1993",
+        title: "Chrono Trigger",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/d/d5/ChronoTriggerInside.PNG",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+      },
+      {
+        releaseYear: "1993",
+        title: "Super Mario World 2: Yoshi's Island",
+        imageUrl: "http://proplayers.com.br/wp-content/uploads/2015/01/Super-Mario-World-2.jpg",
+        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        developer: "Nintendo EAD",
+        platform: "Super NES",
+        genre: "Platforming",
+        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
       }
     ]
   },
@@ -134,6 +474,116 @@ var games = [
         platform: "Nintendo 64",
         genre: "Platform",
         videoUrl: "https://www.youtube.com/embed/fiShX2pTz9A"
+      },
+      {
+        releaseYear: "1996",
+        title: "Resident Evil",
+        imageUrl: "https://taragames.files.wordpress.com/2012/01/resident-evil-1fff.jpg",
+        description: "The game's plot follows Chris Redfield and Jill Valentine, members of an elite task force known as S.T.A.R.S., as they investigate the outskirts of Raccoon City.",
+        developer: "Capcom",
+        platform: "PlayStation",
+        genre: "Survival horror",
+        videoUrl: "https://www.youtube.com/embed/Pc7vnJ0O5LU"
+      },
+      {
+        releaseYear: "1996",
+        title: "Tomb Raider",
+        imageUrl: "http://cdn.akamai.steamstatic.com/steam/apps/224960/ss_0ef43def4b26b4a22bb92a5a82bd7b84b1fd94a7.600x338.jpg?t=1447356979",
+        description: "Tomb Raider follows the exploits of Lara Croft, an English archaeologist in search of ancient treasures.",
+        developer: "Core Design",
+        platform: "Saturn",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/Fpkg3rGUQFw"
+      },
+      {
+        releaseYear: "1996",
+        title: "Nights into Dreams...",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/e/e3/NiGHTs_into_Dreams,_Saturn_version,_Spring_Valley.jpg",
+        description: "The story follows two teenagers, Claris and Elliot, who enter a dream world called Nightopia where all dreams take place.",
+        developer: "Sonic Team",
+        platform: "Saturn",
+        genre: "Action",
+        videoUrl: "https://www.youtube.com/embed/rYBe52GSZCI"
+      },
+      {
+        releaseYear: "1997",
+        title: "Final Fantasy VII",
+        imageUrl: "http://vignette4.wikia.nocookie.net/finalfantasy/images/f/fc/FFVIIbattleexample.jpg/revision/latest?cb=20150205191101&path-prefix=pt-br",
+        description: "The story follows Cloud Strife, a mercenary who joins the eco-terrorist rebel organization AVALANCHE to stop the world-controlling megacorporation Shinra from draining the life of the planet to use as an energy source.",
+        developer: "Square",
+        platform: "PlayStation",
+        genre: "Role-playing",
+        videoUrl: "https://www.youtube.com/embed/fsuJHTGDvpU"
+      },
+      {
+        releaseYear: "1997",
+        title: "GoldenEye 007",
+        imageUrl: "http://www.gamasutra.com/db_area/images/blog/176550/goldeneye-007-nintendo-64-n64-016.jpg",
+        description: "The game features a single-player campaign in which players assume the role of British Secret Intelligence Service agent James Bond.",
+        developer: "Rare",
+        platform: "Nintendo 64",
+        genre: "First-person shooter",
+        videoUrl: "https://www.youtube.com/embed/tPv8cM7__1c"
+      },
+      {
+        releaseYear: "1997",
+        title: "Castlevania: Symphony of the Night",
+        imageUrl: "http://199.101.98.242/media/images/51897-Castlevania_-_Symphony_of_the_Night_(E)-7.jpg",
+        description: "The objective of the game is to guide the main player character Alucard through the undead-filled castle as he sets out to defeat the vampire Dracula.",
+        developer: "Konami Computer Entertainment Tokyo",
+        platform: "PlayStation",
+        genre: "Platform-adventure",
+        videoUrl: "https://www.youtube.com/embed/Wl2qHiubafA"
+      },
+      {
+        releaseYear: "1997",
+        title: "Star Fox 64",
+        imageUrl: "http://199.101.98.242/media/images/40230-Star_Fox_64_(USA)-7.jpg",
+        description: "Star Fox 64 is a 3D scrolling shooter game in which the player controls one of the vehicles piloted by Fox McCloud, usually an Arwing.",
+        developer: "Nintendo EAD",
+        platform: "Nintendo 64",
+        genre: "Platform-adventure",
+        videoUrl: "https://www.youtube.com/embed/8vgfgEk-uRI"
+      },
+      {
+        releaseYear: "1997",
+        title: "Final Fantasy Tactics",
+        imageUrl: "http://199.101.98.242/media/images/36903-Final_Fantasy_Tactics_[NTSC-U]-4.png",
+        description: "The game's story follows Ramza Beoulve, a highborn cadet who finds himself thrust into the middle of an intricate military conflict known as The Lion War.",
+        developer: "Square",
+        platform: "PlayStation",
+        genre: "Tactical role-playing",
+        videoUrl: "https://www.youtube.com/embed/YiGBM-_rsqI"
+      },
+      {
+        releaseYear: "1998",
+        title: "The Legend of Zelda: Ocarina of Time",
+        imageUrl: "http://199.101.98.242/media/images/39915-Legend_of_Zelda,_The_-_Ocarina_of_Time_(USA)-47.jpg",
+        description: "In Ocarina of Time, the player controls Link in the land of Hyrule. Link sets out on a quest to stop Ganondorf.",
+        developer: "Nintendo EAD",
+        platform: "Nintendo 64",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/3BUjR5MG3Ho"
+      },
+      {
+        releaseYear: "1998",
+        title: "Metal Gear Solid",
+        imageUrl: "http://www.gamereviews.com/games/screenshots/10155-3.jpg",
+        description: "Metal Gear Solid follows Solid Snake, a soldier who infiltrates a nuclear weapons facility to neutralize the terrorist threat from FOXHOUND.",
+        developer: "Konami Computer Entertainment Japan",
+        platform: "PlayStation",
+        genre: "Stealth",
+        videoUrl: "https://www.youtube.com/embed/wlDLFUzpYlU"
+      },
+      {
+        releaseYear: "1998",
+        title: "Starcraft",
+        imageUrl: "http://static.giantbomb.com/uploads/original/0/1468/184087-starcraft.png",
+        description: "Set in a fictitious timeline during the Earth's 25th century.",
+        developer: "Blizzard Entertainment",
+        platform: "PC",
+        genre: "Real-time strategy",
+        videoUrl: "https://www.youtube.com/embed/p07bQW4mAQQ"
       }
     ]
   },
@@ -544,7 +994,7 @@ var games = [
       {
         releaseYear: "2013",
         title: "Grand Theft Auto V",
-        imageUrl: "http://3.bp.blogspot.com/-sEbzOGIGV8Y/UpKCtQlyWWI/AAAAAAAAAOE/xd0jtE1i6fk/s1600/gta+v.png",
+        imageUrl: "./gifs/gtav.gif",
         description: "Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three criminals and their efforts to commit heists while under pressure from a government agency.",
         developer: "Rockstar North",
         platform: "PC, PlayStation 3, Xbox 360",

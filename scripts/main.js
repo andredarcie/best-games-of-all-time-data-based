@@ -11,7 +11,7 @@
                                       games[i].period +
                                   "</span>" +
                               "</h2>" +
-                              "<p> <i class='fa fa-cube' aria-hidden='true'></i> " + games[i].platforms + "</p>" +
+                              "<p> <i class='fa fa-cube' aria-hidden='true'></i> " + games[i].platforms + " - " + games[i].gameList.length + " game(s). </p>" +
                               "<ol style='list-style-type: none; padding: 10px; margin: 0px' id='" + games[i].class + "-list'>" +
                               "</ol>" +
                             "</article>");
