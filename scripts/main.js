@@ -1,11 +1,12 @@
 ﻿$(document).ready(function () {
 
+    //
     var year = (gamesList.GameList[0].data[6] + gamesList.GameList[0].data[7]);
 
     for (var i = 0; i < games.length; i++){
 
       $(".container").append("<article class='" + games[i].class + "'>" +
-                             "<h2 class='title-generation'>" +
+                             "<h2 class='"+ games[i].class + "-title' style='padding: 0; margin: 0'>" +
                                   games[i].title +
                                   "<span class='generation-period'> " +
                                       games[i].period +
@@ -37,6 +38,42 @@
       }
 
     }
+
+    var stickyOffset_first = $('.first-generation-title').offset().top, stickyOffset_second = $('.second-generation-title').offset().top, stickyOffset_third = $('.third-generation-title').offset().top;
+    stickyOffset_fourth = $('.fourth-generation-title').offset().top, stickyOffset_fifth = $('.fifth-generation-title').offset().top, stickyOffset_sixth = $('.sixth-generation-title').offset().top;
+    stickyOffset_seventh = $('.seventh-generation-title').offset().top, stickyOffset_eighth = $('.eighth-generation-title').offset().top;
+
+    $(window).scroll(function(){
+      var sticky_first = $('.first-generation-title'), sticky_second = $('.second-generation-title'), sticky_third = $('.third-generation-title'),
+          sticky_fourth = $('.fourth-generation-title'), sticky_fifth = $('.fifth-generation-title'), sticky_sixth = $('.sixth-generation-title'),
+          sticky_seventh = $('.seventh-generation-title'), sticky_eighth = $('.eighth-generation-title'),
+          scroll = $(window).scrollTop();
+
+      if (scroll >= stickyOffset_first) sticky_first.addClass('fixed');
+      else sticky_first.removeClass('fixed');
+
+      if (scroll >= stickyOffset_second) sticky_second.addClass('fixed');
+      else sticky_second.removeClass('fixed');
+
+      if (scroll >= stickyOffset_third) sticky_third.addClass('fixed');
+      else sticky_third.removeClass('fixed');
+
+      if (scroll >= stickyOffset_fourth) sticky_fourth.addClass('fixed');
+      else sticky_fourth.removeClass('fixed');
+
+      if (scroll >= stickyOffset_fifth) sticky_fifth.addClass('fixed');
+      else sticky_fifth.removeClass('fixed');
+
+      if (scroll >= stickyOffset_sixth) sticky_sixth.addClass('fixed');
+      else sticky_sixth.removeClass('fixed');
+
+      if (scroll >= stickyOffset_seventh) sticky_seventh.addClass('fixed');
+      else sticky_seventh.removeClass('fixed');
+
+      if (scroll >= stickyOffset_eighth) sticky_eighth.addClass('fixed');
+      else sticky_eighth.removeClass('fixed');
+
+    });
 
     for (var g = 0; g < gamesList.GameList.length; g++) {
 
