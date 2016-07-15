@@ -92,14 +92,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/dScq4P5gn4A"
       },
       {
-        releaseYear: "1978",
+        releaseYear: "1981",
         title: "Donkey Kong",
         imageUrl: "./gifs/donkey-kong.gif",
-        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
-        developer: "Taito",
+        description: "Donkey Kong requires the player to jump between gaps and over obstacles or approaching enemies, setting the template for the future of the platform genre.",
+        developer: "Nintendo",
         platform: "Arcade",
-        genre: "Fixed shooter",
-        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+        genre: "Platformer",
+        videoUrl: "https://www.youtube.com/embed/Pp2aMs38ERY"
       },
       {
         releaseYear: "1978",
