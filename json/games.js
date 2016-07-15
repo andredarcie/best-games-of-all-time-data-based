@@ -82,14 +82,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
       },
       {
-        releaseYear: "1978",
+        releaseYear: "1980",
         title: "Pac-Man",
         imageUrl: "./gifs/pac-man.gif",
-        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
-        developer: "Taito",
+        description: "The player controls Pac-Man through a maze, eating pac-dots (also called pellets or just dots).",
+        developer: "Namco",
         platform: "Arcade",
-        genre: "Fixed shooter",
-        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+        genre: "Maze",
+        videoUrl: "https://www.youtube.com/embed/dScq4P5gn4A"
       },
       {
         releaseYear: "1978",
