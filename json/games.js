@@ -102,14 +102,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/Pp2aMs38ERY"
       },
       {
-        releaseYear: "1978",
+        releaseYear: "1981",
         title: "Galaga",
         imageUrl: "./gifs/galaga.gif",
-        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
-        developer: "Taito",
+        description: "The objective of Galaga is to score as many points as possible by destroying insect-like enemies.",
+        developer: "Namco",
         platform: "Arcade",
-        genre: "Fixed shooter",
-        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+        genre: "Shoot 'em up",
+        videoUrl: "https://www.youtube.com/embed/Cq9I7OvEaFo"
       },
       {
         releaseYear: "1978",
