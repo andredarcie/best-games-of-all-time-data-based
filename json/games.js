@@ -477,6 +477,16 @@ var games = [
       },
       {
         releaseYear: "1996",
+        title: "Pokémon Red and Blue",
+        imageUrl: "https://overdrive4.files.wordpress.com/2013/07/550px-get-hm-strength-in-pokemon-red-blue-and-yellow-step-1.jpg",
+        description: "The player can use his or her Pokémon to battle other Pokémon.",
+        developer: "Capcom",
+        platform: "Game Boy",
+        genre: "Role-playing",
+        videoUrl: "https://www.youtube.com/embed/Pc7vnJ0O5LU"
+      },
+      {
+        releaseYear: "1996",
         title: "Resident Evil",
         imageUrl: "https://taragames.files.wordpress.com/2012/01/resident-evil-1fff.jpg",
         description: "The game's plot follows Chris Redfield and Jill Valentine, members of an elite task force known as S.T.A.R.S., as they investigate the outskirts of Raccoon City.",
@@ -605,6 +615,46 @@ var games = [
       },
       {
         releaseYear: "1999",
+        title: "Half-Life",
+        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
+        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
+        developer: "Sega AM2",
+        platform: "Dreamcast",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+      },
+      {
+        releaseYear: "1999",
+        title: "Grim Fandango",
+        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
+        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
+        developer: "Sega AM2",
+        platform: "Dreamcast",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+      },
+      {
+        releaseYear: "1999",
+        title: "Resident Evil 2",
+        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
+        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
+        developer: "Sega AM2",
+        platform: "Dreamcast",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+      },
+      {
+        releaseYear: "1999",
+        title: "Xenogears",
+        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
+        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
+        developer: "Sega AM2",
+        platform: "Dreamcast",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+      },
+      {
+        releaseYear: "1999",
         title: "Shenmue",
         imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
         description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
@@ -614,14 +664,74 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
       },
       {
+        releaseYear: "1999",
+        title: "Diablo II",
+        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
+        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
+        developer: "Sega AM2",
+        platform: "Dreamcast",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+      },
+      {
+        releaseYear: "1999",
+        title: "The Legend of Zelda: Majora's Mask",
+        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
+        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
+        developer: "Sega AM2",
+        platform: "Dreamcast",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+      },
+      {
         releaseYear: "2000",
-        title: "Skies of Arcadia",
+        title: "Deus Ex",
         imageUrl: "http://www.seganerds.com/wp-content/uploads/2014/03/06-Skies-of-Arcadia-Legends.png",
         description: "The game's story focuses around Vyse, a young air pirate in a Jules Verne-inspired fantasy world, and his friends as they attempt to stop the Valuan Empire from reviving ancient weapons with the potential to destroy the world.",
         developer: "Overworks",
         platform: "Dreamcast",
         genre: "Role-playing",
         videoUrl: "https://www.youtube.com/embed/Hk1SP-jjmzI"
+      },
+      {
+        releaseYear: "2000",
+        title: "Deus Ex",
+        imageUrl: "http://www.seganerds.com/wp-content/uploads/2014/03/06-Skies-of-Arcadia-Legends.png",
+        description: "The game's story focuses around Vyse, a young air pirate in a Jules Verne-inspired fantasy world, and his friends as they attempt to stop the Valuan Empire from reviving ancient weapons with the potential to destroy the world.",
+        developer: "Overworks",
+        platform: "Dreamcast",
+        genre: "Role-playing",
+        videoUrl: "https://www.youtube.com/embed/Hk1SP-jjmzI"
+      },
+      {
+        releaseYear: "2001",
+        title: "Counter-Strike",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/2/23/Halo_-_Combat_Evolved_(screencap).jpg",
+        description: "Halo is set in the twenty-sixth century, with the player assuming the role of the Master Chief, a cybernetically enhanced supersoldier.",
+        developer: "Bungie",
+        platform: "Xbox",
+        genre: "First-person shooter",
+        videoUrl: "https://www.youtube.com/embed/1HKb4mpc6J4"
+      },
+      {
+        releaseYear: "2001",
+        title: "Perfect Dark",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/2/23/Halo_-_Combat_Evolved_(screencap).jpg",
+        description: "Halo is set in the twenty-sixth century, with the player assuming the role of the Master Chief, a cybernetically enhanced supersoldier.",
+        developer: "Bungie",
+        platform: "Xbox",
+        genre: "First-person shooter",
+        videoUrl: "https://www.youtube.com/embed/1HKb4mpc6J4"
+      },
+      {
+        releaseYear: "2001",
+        title: "Skies of Arcadia",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/2/23/Halo_-_Combat_Evolved_(screencap).jpg",
+        description: "Halo is set in the twenty-sixth century, with the player assuming the role of the Master Chief, a cybernetically enhanced supersoldier.",
+        developer: "Bungie",
+        platform: "Xbox",
+        genre: "First-person shooter",
+        videoUrl: "https://www.youtube.com/embed/1HKb4mpc6J4"
       },
       {
         releaseYear: "2001",
