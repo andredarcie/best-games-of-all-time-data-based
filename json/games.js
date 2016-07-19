@@ -125,11 +125,11 @@ var games = [
         releaseYear: "1978",
         title: "Robotron",
         imageUrl: "./gifs/robotron.gif",
-        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
-        developer: "Taito",
+        description: "The game is set in the year 2084 in a fictional world where robots have turned against humans in a cybernetic revolt.",
+        developer: "Vid Kidz",
         platform: "Arcade",
-        genre: "Fixed shooter",
-        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+        genre: "Multi-directional shooter",
+        videoUrl: "https://www.youtube.com/embed/l800GL6NQPY"
       },
       {
         releaseYear: "1978",
