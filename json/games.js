@@ -132,14 +132,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/l800GL6NQPY"
       },
       {
-        releaseYear: "1978",
+        releaseYear: "1984",
         title: "Tetris",
         imageUrl: "./gifs/tetris.gif",
-        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
-        developer: "Taito",
-        platform: "Arcade",
-        genre: "Fixed shooter",
-        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+        description: "The objective of the game is to manipulate Tetriminos, by moving each one sideways (if the player feels the need) and rotating it by 90 degree units, with the aim of creating a horizontal line of ten units without gaps.",
+        developer: "Alexey Pajitnov",
+        platform: "Electronika 60",
+        genre: "Puzzle",
+        videoUrl: "https://www.youtube.com/embed/O0gAgQQHFcQ"
       },
       {
         releaseYear: "1978",
