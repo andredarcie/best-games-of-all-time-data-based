@@ -142,14 +142,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/O0gAgQQHFcQ"
       },
       {
-        releaseYear: "1978",
+        releaseYear: "1984",
         title: "Punch-Out!!",
-        imageUrl: "https://i.kinja-img.com/gawker-media/image/upload/s--Ctb2_QLY--/c_scale,fl_progressive,q_80,w_800/akg0i24md8os94vjpejn.gif",
-        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
-        developer: "Taito",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/1/14/Baldbull.png",
+        description: "In the game, the player assumes the role of a green-haired boxer.",
+        developer: "Nintendo IRD",
         platform: "Arcade",
-        genre: "Fixed shooter",
-        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+        genre: "Sports",
+        videoUrl: "https://www.youtube.com/embed/rcJneBFV9cI"
       },
       {
         releaseYear: "1978",
