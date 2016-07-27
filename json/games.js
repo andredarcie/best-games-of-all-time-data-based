@@ -152,14 +152,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/rcJneBFV9cI"
       },
       {
-        releaseYear: "1978",
+        releaseYear: "1984",
         title: "Elite",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/en/c/c4/BBC_Micro_Elite_screenshot.png",
-        description: "Space Invaders is one of the earliest shooting games and the aim is to defeat waves of aliens with a laser cannon to earn as many points as possible.",
-        developer: "Taito",
-        platform: "Arcade",
-        genre: "Fixed shooter",
-        videoUrl: "https://www.youtube.com/embed/437Ld_rKM2s"
+        imageUrl: "http://static1.gamespot.com/uploads/original/917/9176928/2545493-1775739520-6108-.jpg",
+        description: "The player initially controls the character 'Commander Jameson'.",
+        developer: "David Braben",
+        platform: "BBC Micro",
+        genre: "Space trading and combat simulator",
+        videoUrl: "https://www.youtube.com/embed/8IYQvxtOlcE"
       }
     ]
   },
