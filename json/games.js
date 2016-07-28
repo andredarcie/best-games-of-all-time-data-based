@@ -180,14 +180,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
       },
       {
-        releaseYear: "1985",
+        releaseYear: "1986",
         title: "The Legend of Zelda",
         imageUrl: "./gifs/the-legend-of-zelda.gif",
-        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        description: "The player controls Link from a flip-screen overhead perspective as he travels in the overworld, a large outdoor map with varied environments.",
         developer: "Nintendo R&D4",
         platform: "NES",
-        genre: "Platformer",
-        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/W0RmGNrNhHE"
       },
       {
         releaseYear: "1986",
