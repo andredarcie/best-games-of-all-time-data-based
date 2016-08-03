@@ -203,11 +203,11 @@ var games = [
         releaseYear: "1986",
         title: "OutRun",
         imageUrl: "./gifs/outrun.gif",
-        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
-        developer: "Nintendo R&D4",
-        platform: "NES",
-        genre: "Platformer",
-        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+        description: "Out Run is a 3D third-person racing game. The player controls a car, a Ferrari Testarossa Spider, from a rear third-person perspective.",
+        developer: "Sega AM2",
+        platform: "Arcade",
+        genre: "Racing",
+        videoUrl: "https://www.youtube.com/embed/J7tZFW4WedI"
       },
       {
         releaseYear: "1987",
