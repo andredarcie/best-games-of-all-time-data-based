@@ -213,11 +213,11 @@ var games = [
         releaseYear: "1987",
         title: "Contra",
         imageUrl: "./gifs/contra.gif",
-        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
-        developer: "Nintendo R&D4",
-        platform: "NES",
-        genre: "Platformer",
-        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+        description: "In 2633, the evil Red Falcon Organization have set a base on the Galuga archipelago near New Zealand in a plot to conquer the world.",
+        developer: "Konami",
+        platform: "Arcade",
+        genre: "Run and gun",
+        videoUrl: "https://www.youtube.com/embed/kWMyoNhGHbk"
       },
       {
         releaseYear: "1987",
