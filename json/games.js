@@ -193,11 +193,11 @@ var games = [
         releaseYear: "1986",
         title: "Metroid",
         imageUrl: "./gifs/metroid.gif",
-        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        description: "Metroid is an action-adventure game in which the player controls Samus Aran in sprite-rendered two-dimensional landscapes.",
         developer: "Nintendo R&D4",
         platform: "NES",
-        genre: "Platformer",
-        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+        genre: "Platform-adventure",
+        videoUrl: "https://www.youtube.com/embed/OoZTjis-7fs"
       },
       {
         releaseYear: "1986",
