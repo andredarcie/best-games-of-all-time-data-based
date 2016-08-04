@@ -233,11 +233,11 @@ var games = [
         releaseYear: "1987",
         title: "R-Type",
         imageUrl: "http://a1.mzstatic.com/us/r30/Purple2/v4/84/dd/c8/84ddc80d-229d-2c2d-ae0e-46b646217a4d/screen568x568.jpeg",
-        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
-        developer: "Nintendo R&D4",
-        platform: "NES",
-        genre: "Platformer",
-        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+        description: "The game is made up of several sequential levels, with a boss enemy at the end of each.",
+        developer: "Irem",
+        platform: "Arcade",
+        genre: "Shoot 'em up",
+        videoUrl: "https://www.youtube.com/embed/BRFRr_SrrvM"
       },
       {
         releaseYear: "1987",
