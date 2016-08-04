@@ -223,11 +223,11 @@ var games = [
         releaseYear: "1987",
         title: "Double Dragon",
         imageUrl: "http://www.arcade-museum.com/images/118/1181242103248.png",
-        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
-        developer: "Nintendo R&D4",
-        platform: "NES",
-        genre: "Platformer",
-        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+        description: "The player takes control of martial artist Billy Lee, or his twin brother Jimmy, as they fight their way into the turf of the Black Warriors gang in order to rescue Billy's love interest, Marian.",
+        developer: "Technōs Japan",
+        platform: "Arcade",
+        genre: "Beat 'em up",
+        videoUrl: "https://www.youtube.com/embed/jBkaj8QXyf4"
       },
       {
         releaseYear: "1987",
