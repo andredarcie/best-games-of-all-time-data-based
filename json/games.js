@@ -243,11 +243,11 @@ var games = [
         releaseYear: "1987",
         title: "Tecmo Bowl",
         imageUrl: "http://1.bp.blogspot.com/-zj4MkHXMiUE/VrFR7zRnxlI/AAAAAAAAKo4/v1bqjy0Kl9s/s1600/TecmoBowlFamicom.jpg",
-        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
-        developer: "Nintendo R&D4",
-        platform: "NES",
-        genre: "Platformer",
-        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+        description: "The original arcade version is distinguished by a large two-monitor cabinet, support for up to four players, and the ability to break tackles.",
+        developer: "Tecmo",
+        platform: "Arcade",
+        genre: "Sports",
+        videoUrl: "https://www.youtube.com/embed/JwAtZpcfXHk"
       },
       {
         releaseYear: "1988",
