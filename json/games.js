@@ -253,11 +253,11 @@ var games = [
         releaseYear: "1988",
         title: "Super Mario Bros. 3",
         imageUrl: "http://www.emuparadise.me/fup/up/57076-Super_Mario_Bros._3_(Europe)-11.jpg",
-        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        description: "The plot of Super Mario Bros. 3 is described in the instruction booklet. The Mushroom World, the setting of the game, is invaded by the Koopalings, Bowser's seven children.",
         developer: "Nintendo R&D4",
         platform: "NES",
         genre: "Platformer",
-        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+        videoUrl: "https://www.youtube.com/embed/61MNeKHnhe0"
       },
       {
         releaseYear: "1988",
