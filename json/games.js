@@ -291,11 +291,11 @@ var games = [
         releaseYear: "1990",
         title: "The Legend of Zelda: A Link to the Past",
         imageUrl: "http://gamehall.uol.com.br/galerias/_snes_zeldalinkpast/img_zeldalinkpast03.jpg",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        description: "At the beginning of the game, a young boy named Link is awakened by a telepathic message from Princess Zelda, who says that she is locked in the dungeon of nearby Hyrule Castle.",
         developer: "Nintendo EAD",
         platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/xf2IO7P5DVA"
       },
       {
         releaseYear: "1990",
