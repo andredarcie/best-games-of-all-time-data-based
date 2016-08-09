@@ -301,11 +301,11 @@ var games = [
         releaseYear: "1990",
         title: "Street Fighter II",
         imageUrl: "https://upload.wikimedia.org/wikipedia/pt/4/46/Street_Fighter_II_(arcade)_screenshot.png",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
-        platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        description: "The player engages opponents in one-on-one close quarter combat in a series of best-two-out-of-three matches.",
+        developer: "Capcom",
+        platform: "Arcade",
+        genre: "Fighting",
+        videoUrl: "https://www.youtube.com/embed/xI284D4y1q4"
       },
       {
         releaseYear: "1990",
