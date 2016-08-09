@@ -694,16 +694,6 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/Hk1SP-jjmzI"
       },
       {
-        releaseYear: "2000",
-        title: "Deus Ex",
-        imageUrl: "http://www.seganerds.com/wp-content/uploads/2014/03/06-Skies-of-Arcadia-Legends.png",
-        description: "The game's story focuses around Vyse, a young air pirate in a Jules Verne-inspired fantasy world, and his friends as they attempt to stop the Valuan Empire from reviving ancient weapons with the potential to destroy the world.",
-        developer: "Overworks",
-        platform: "Dreamcast",
-        genre: "Role-playing",
-        videoUrl: "https://www.youtube.com/embed/Hk1SP-jjmzI"
-      },
-      {
         releaseYear: "2001",
         title: "Counter-Strike",
         imageUrl: "https://upload.wikimedia.org/wikipedia/en/2/23/Halo_-_Combat_Evolved_(screencap).jpg",
