@@ -263,11 +263,11 @@ var games = [
         releaseYear: "1988",
         title: "Mega Man 2",
         imageUrl: "http://199.101.98.242/media/images/56220-Mega_Man_2_(USA)-2.jpg",
-        description: "It is the first of the Super Mario series of games. In Super Mario Bros., the player controls Mario and in a two-player game, a second player controls Mario's brother Luigi as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser.",
+        description: "Mega Man 2 takes place after the original Mega Man, which is set in an unspecified year during the 21st century.",
         developer: "Nintendo R&D4",
         platform: "NES",
-        genre: "Platformer",
-        videoUrl: "https://www.youtube.com/embed/2ZuhSB64quY"
+        genre: "Platform",
+        videoUrl: "https://www.youtube.com/embed/vuJ8Qr-3_zg"
       }
     ]
   },
