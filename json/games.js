@@ -318,14 +318,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/dJJnxHcv1z4"
       },
       {
-        releaseYear: "1990",
+        releaseYear: "1991",
         title: "Final Fantasy IV",
         imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Ff4wiki.PNG/220px-Ff4wiki.PNG",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
-        platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        description: "Final Fantasy IV begins as the Red Wings are returning to Baron after attacking the city of Mysidia to steal their Water Crystal.",
+        developer: "Square",
+        platform: "Super Nintendo Entertainment System",
+        genre: "Role-playing",
+        videoUrl: "https://www.youtube.com/embed/QxodM4uWaC8"
       },
       {
         releaseYear: "1990",
