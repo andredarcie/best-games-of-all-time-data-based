@@ -308,14 +308,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/xI284D4y1q4"
       },
       {
-        releaseYear: "1990",
+        releaseYear: "1991",
         title: "Sonic the Hedgehog",
         imageUrl: "https://upload.wikimedia.org/wikipedia/en/c/c1/SonicTheHedgehog1.png",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
-        platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        description: "In an attempt to steal the six Chaos Emeralds and harness their power, the game's antagonist, Dr. Ivo Robotnik.",
+        developer: "Sonic Team",
+        platform: "Genesis/Mega Drive",
+        genre: "Platform",
+        videoUrl: "https://www.youtube.com/embed/dJJnxHcv1z4"
       },
       {
         releaseYear: "1990",
