@@ -328,14 +328,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/QxodM4uWaC8"
       },
       {
-        releaseYear: "1990",
+        releaseYear: "1992",
         title: "Super Mario Kart",
         imageUrl: "http://s.emuparadise.org/Super%20Nintendo/Snaps/Super%20Mario%20Kart%20(U).png",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        description: "Super Mario Kart is a kart racing game featuring several single and multiplayer modes.",
         developer: "Nintendo EAD",
         platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        genre: "Kart racing",
+        videoUrl: "https://www.youtube.com/embed/AlAmXXNz5ac"
       },
       {
         releaseYear: "1990",
