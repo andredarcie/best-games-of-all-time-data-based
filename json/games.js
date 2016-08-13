@@ -338,14 +338,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/AlAmXXNz5ac"
       },
       {
-        releaseYear: "1990",
+        releaseYear: "1992",
         title: "Sonic the Hedgehog 2",
         imageUrl: "http://www.consoleclassix.com/info_img/Sonic_The_Hedgehog_2_GEN_ScreenShot3.jpg",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
-        platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        description: "The game's two protagonists are Sonic the Hedgehog and his sidekick, Miles 'Tails' Prower",
+        developer: "Sonic Team",
+        platform: "Genesis/Mega Drive",
+        genre: "Platform",
+        videoUrl: "https://www.youtube.com/embed/NA-zvMyascY"
       },
       {
         releaseYear: "1993",
