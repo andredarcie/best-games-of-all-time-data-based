@@ -361,11 +361,11 @@ var games = [
         releaseYear: "1993",
         title: "Secret of Mana",
         imageUrl: "http://gamefabrique.com/storage/screenshots/snes/secret-of-mana-05.png",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
+        description: "The story takes place in a high fantasy world, which contains an ethereal energy source named 'mana'.",
+        developer: "Square",
         platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        genre: "Action role-playing",
+        videoUrl: "https://www.youtube.com/embed/yh7Z5IZ1gjI"
       },
       {
         releaseYear: "1993",
