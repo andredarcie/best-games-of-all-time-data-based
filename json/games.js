@@ -351,11 +351,11 @@ var games = [
         releaseYear: "1993",
         title: "Doom",
         imageUrl: "http://www.unigamesity.com/wp-content/uploads//2008/11/doom_flash.jpg",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
-        platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        description: "Doom, a science fiction/horror themed video game, has a background which is given in the game's instruction manual.",
+        developer: "id Software",
+        platform: "PC",
+        genre: "First-person shooter",
+        videoUrl: "https://www.youtube.com/embed/jP2jI0BVG0w"
       },
       {
         releaseYear: "1993",
