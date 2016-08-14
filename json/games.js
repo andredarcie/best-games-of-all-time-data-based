@@ -381,11 +381,11 @@ var games = [
         releaseYear: "1993",
         title: "Gunstar Heroes",
         imageUrl: "http://filmesegames.com.br/wp-content/uploads/2014/01/gunstar_heroes-1.jpg",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
-        platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        description: "The Western version of the game storyline is different from the Japanese version. In both storylines, there is a God-like but evil robot, Golden Silver, that has the potential to cause extreme ruin.",
+        developer: "Treasure",
+        platform: "Genesis/Mega Drive",
+        genre: "Run and gun",
+        videoUrl: "https://www.youtube.com/embed/Y5F7pzPQ24U"
       },
       {
         releaseYear: "1993",
