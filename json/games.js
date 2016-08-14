@@ -371,11 +371,11 @@ var games = [
         releaseYear: "1993",
         title: "The Legend of Zelda: Link's Awakening",
         imageUrl: "http://somosnintendo.com/wp-content/uploads/2014/06/67645-Legend_of_Zelda_The_-_Links_Awakening_DX_USA_Europe_Rev_A-2-thumb.png",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        description: "After the events of Oracle of Ages and Oracle of Seasons, the hero Link travels abroad to train for further threats. A storm destroys his boat at sea, and he washes ashore on Koholint Island.",
         developer: "Nintendo EAD",
-        platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        platform: "Game Boy",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/thdoE3ni8RM"
       },
       {
         releaseYear: "1993",
