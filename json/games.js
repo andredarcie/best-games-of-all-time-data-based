@@ -576,14 +576,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/eLmY0OQM_tE"
       },
       {
-        releaseYear: "1999",
+        releaseYear: "1998",
         title: "Grim Fandango",
-        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
-        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
-        developer: "Sega AM2",
-        platform: "Dreamcast",
-        genre: "Action-adventure",
-        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+        imageUrl: "http://www.grimremastered.com/img/hallway.jpg",
+        description: "Grim Fandango takes place in the Land of the Dead, where recently departed souls aim to make their way to the Land of Eternal Rest.",
+        developer: "LucasArts",
+        platform: "PC",
+        genre: "Adventure",
+        videoUrl: "https://www.youtube.com/embed/kcqj0APsDsM"
       },
       {
         releaseYear: "1999",
