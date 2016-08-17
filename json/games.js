@@ -566,14 +566,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/i-QsmLB35oo"
       },
       {
-        releaseYear: "1999",
+        releaseYear: "1998",
         title: "Half-Life",
-        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
-        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
-        developer: "Sega AM2",
-        platform: "Dreamcast",
-        genre: "Action-adventure",
-        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/6/65/Halflife_ingame.jpg",
+        description: "Dr. Gordon Freeman arrives late for work at 8:47 am in the Black Mesa Research Facility, using the advanced Black Mesa train system that leads through the facility.",
+        developer: "Valve L.L.C.",
+        platform: "PC",
+        genre: "First-person shooter",
+        videoUrl: "https://www.youtube.com/embed/eLmY0OQM_tE"
       },
       {
         releaseYear: "1999",
