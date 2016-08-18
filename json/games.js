@@ -586,14 +586,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/kcqj0APsDsM"
       },
       {
-        releaseYear: "1999",
+        releaseYear: "1998",
         title: "Resident Evil 2",
-        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
-        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
-        developer: "Sega AM2",
-        platform: "Dreamcast",
-        genre: "Action-adventure",
-        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/e/ed/Resident_Evil_2_RPD.png",
+        description: "Raccoon City. Nearly all of its citizens have been transformed into zombies by an outbreak of the T-virus, a new type of biological weapon secretly developed by the pharmaceutical company Umbrella.",
+        developer: "Capcom",
+        platform: "PlayStation",
+        genre: "Survival horror",
+        videoUrl: "https://www.youtube.com/embed/Oo3Rzvp3VmE"
       },
       {
         releaseYear: "1999",
