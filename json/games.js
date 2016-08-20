@@ -596,14 +596,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/Oo3Rzvp3VmE"
       },
       {
-        releaseYear: "1999",
+        releaseYear: "1998",
         title: "Xenogears",
-        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
-        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
-        developer: "Sega AM2",
-        platform: "Dreamcast",
-        genre: "Action-adventure",
-        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+        imageUrl: "https://moegamer.files.wordpress.com/2015/02/gfs_28106_2_65.jpg",
+        description: "Xenogears initially takes place on Ignas, the largest continent of the Xenogears world, and the site of a centuries-long war between the nations of Aveh and Kislev.",
+        developer: "Square Product Development Division 3",
+        platform: "PlayStation",
+        genre: "Role-playing",
+        videoUrl: "https://www.youtube.com/embed/N0xGILHchUo"
       },
       {
         releaseYear: "1999",
