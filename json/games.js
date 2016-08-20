@@ -343,11 +343,11 @@ var games = [
         releaseYear: "1993",
         title: "Daytona USA",
         imageUrl: "http://2.bp.blogspot.com/-h7iSY1SeVvY/Tixz9EbBXGI/AAAAAAAAA8U/ajp6z35GLaM/s1600/20090209_daytona_usa_93_2.png",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
-        platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        description: "The player is put behind the wheel of a stock car (known as the Hornet), with the choice of three tracks as well as an automatic or manual transmission.",
+        developer: "Sega AM2",
+        platform: "Arcade",
+        genre: "Racing",
+        videoUrl: "https://www.youtube.com/embed/QqfAIxEog08"
       },
       {
         releaseYear: "1993",
