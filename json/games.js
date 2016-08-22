@@ -350,14 +350,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/QqfAIxEog08"
       },
       {
-        releaseYear: "1993",
+        releaseYear: "1994",
         title: "Super Metroid",
         imageUrl: "http://199.101.98.242/media/images/35794-Super_Metroid_(Japan,_USA)_(En,Ja)_[Hack_by_Banana_Oyaji_v1.06]_(~Metroid_Legacy)-5.jpg",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
+        description: "Super Metroid opens with a narrative by bounty hunter Samus Aran.",
+        developer: "Nintendo R&D1",
         platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        genre: "Platform-adventure",
+        videoUrl: "https://www.youtube.com/embed/RyTlrr-6ijs"
       },
       {
         releaseYear: "1993",
