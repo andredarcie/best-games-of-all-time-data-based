@@ -360,14 +360,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/RyTlrr-6ijs"
       },
       {
-        releaseYear: "1993",
+        releaseYear: "1994",
         title: "Final Fantasy VI",
         imageUrl: "https://upload.wikimedia.org/wikipedia/en/d/df/WikibattleFF6.PNG",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
+        description: "Final Fantasy VI takes place on a large, unnamed world. During the course of the game, its geography and landscape change due to various developments in the game's plot.",
+        developer: "Square",
         platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        genre: "Role-playing",
+        videoUrl: "https://www.youtube.com/embed/gILy5lTgozU"
       },
       {
         releaseYear: "1993",
