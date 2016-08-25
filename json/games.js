@@ -370,14 +370,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/gILy5lTgozU"
       },
       {
-        releaseYear: "1993",
+        releaseYear: "1994",
         title: "EarthBound",
         imageUrl: "https://upload.wikimedia.org/wikipedia/en/a/ac/Mother_2_Summers.png",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
+        description: "The player starts as a young boy named Ness as he investigates a nearby meteorite crash.",
+        developer: "Ape",
         platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        genre: "Role-playing",
+        videoUrl: "https://www.youtube.com/embed/0GSZ1mabKLc"
       },
       {
         releaseYear: "1993",
