@@ -380,14 +380,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/0GSZ1mabKLc"
       },
       {
-        releaseYear: "1993",
+        releaseYear: "1994",
         title: "Star Wars: TIE Fighter",
         imageUrl: "http://www.lakebit.com/wp-content/uploads/2014/12/tie-fighter-space-combat.jpg",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
-        platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        description: "The game's plot begins soon after the Empire's victory on Hoth in The Empire Strikes Back.",
+        developer: "Totally Games",
+        platform: "PC",
+        genre: "Space simulation",
+        videoUrl: "https://www.youtube.com/embed/geyps1bNqEc"
       },
       {
         releaseYear: "1993",
