@@ -390,14 +390,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/geyps1bNqEc"
       },
       {
-        releaseYear: "1993",
+        releaseYear: "1995",
         title: "Chrono Trigger",
         imageUrl: "https://upload.wikimedia.org/wikipedia/en/d/d5/ChronoTriggerInside.PNG",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
-        developer: "Nintendo EAD",
+        description: "Chrono Trigger takes place in a world familiar to Earth, with eras such as the prehistoric age, in which primitive humans and dinosaurs share the earth.",
+        developer: "Square",
         platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        genre: "Role-playing",
+        videoUrl: "https://www.youtube.com/embed/QRm0ffnnZKQ"
       },
       {
         releaseYear: "1993",
