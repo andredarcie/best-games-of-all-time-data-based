@@ -400,14 +400,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/QRm0ffnnZKQ"
       },
       {
-        releaseYear: "1993",
+        releaseYear: "1995",
         title: "Super Mario World 2: Yoshi's Island",
         imageUrl: "http://proplayers.com.br/wp-content/uploads/2015/01/Super-Mario-World-2.jpg",
-        description: "The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist. The two brothers must travel across seven worlds to restore order to Dinosaur Land.",
+        description: "Yoshi's Island is a two-dimensional side-scrolling platformer in which players help friendly dinosaurs known as Yoshis escort Baby Mario safely through 48 levels across six worlds.",
         developer: "Nintendo EAD",
         platform: "Super NES",
-        genre: "Platforming",
-        videoUrl: "https://www.youtube.com/embed/AqturoCh5lM"
+        genre: "Platform",
+        videoUrl: "https://www.youtube.com/embed/8UZt8a91iho"
       }
     ]
   },
