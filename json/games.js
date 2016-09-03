@@ -626,14 +626,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/o0s_sFYzpt8"
       },
       {
-        releaseYear: "1999",
+        releaseYear: "2000",
         title: "The Legend of Zelda: Majora's Mask",
-        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
-        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
-        developer: "Sega AM2",
-        platform: "Dreamcast",
+        imageUrl: "http://i.kinja-img.com/gawker-media/image/upload/saichppxmtlolco1cemp.jpg",
+        description: "The Legend of Zelda: Majora's Mask is set in Termina, a land parallel to Hyrule, the latter being the main setting of most games in the series.",
+        developer: "Nintendo EAD",
+        platform: "Nintendo 64",
         genre: "Action-adventure",
-        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+        videoUrl: "https://www.youtube.com/embed/bE7D8NH0Mww"
       },
       {
         releaseYear: "2000",
