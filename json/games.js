@@ -616,14 +616,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
       },
       {
-        releaseYear: "1999",
+        releaseYear: "2000",
         title: "Diablo II",
-        imageUrl: "https://flemzytwopence.files.wordpress.com/2015/06/shenmue-china.jpg",
-        description: "Shenmue consists of open-world 3D environments interspersed with brawler battles and quick time events.",
-        developer: "Sega AM2",
-        platform: "Dreamcast",
-        genre: "Action-adventure",
-        videoUrl: "https://www.youtube.com/embed/z_6qSi-JFE0"
+        imageUrl: "http://netdna.webdesignerdepot.com/uploads/2008/11/diablo-2-2000.jpg",
+        description: "Diablo II takes place after the end of the previous game, Diablo, in the world of Sanctuary.",
+        developer: "Blizzard North",
+        platform: "PC",
+        genre: "Action role-playing",
+        videoUrl: "https://www.youtube.com/embed/o0s_sFYzpt8"
       },
       {
         releaseYear: "1999",
