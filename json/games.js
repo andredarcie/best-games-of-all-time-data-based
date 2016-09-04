@@ -646,14 +646,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/Hk1SP-jjmzI"
       },
       {
-        releaseYear: "2001",
+        releaseYear: "2000",
         title: "Counter-Strike",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/en/2/23/Halo_-_Combat_Evolved_(screencap).jpg",
-        description: "Halo is set in the twenty-sixth century, with the player assuming the role of the Master Chief, a cybernetically enhanced supersoldier.",
-        developer: "Bungie",
-        platform: "Xbox",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/0/02/Counter-Strike_screenshot.png",
+        description: "Counter-Strike (officially abbreviated as CS) is a series of multiplayer first-person shooter video games, in which teams of terrorists and counter-terrorists.",
+        developer: "Valve Corporation",
+        platform: "PC",
         genre: "First-person shooter",
-        videoUrl: "https://www.youtube.com/embed/1HKb4mpc6J4"
+        videoUrl: "https://www.youtube.com/embed/lS95VQccfa8"
       },
       {
         releaseYear: "2001",
