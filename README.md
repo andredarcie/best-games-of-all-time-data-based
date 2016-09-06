@@ -1,5 +1,5 @@
 # History of Video Games
-Simple list with your games.
+Timeline containing the most important games for generations.
 
 JSON file that represents the data of the games:
 <pre>
