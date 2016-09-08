@@ -1,7 +1,7 @@
 # History of Video Games
 Timeline containing the most important games for generations.
 
-JSON file that represents the data of the games:
+´games.js´ file represents the data of the games:
 <pre>
 gameList: [
   {
