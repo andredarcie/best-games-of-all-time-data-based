@@ -16,7 +16,7 @@ gameList: [
     releaseYear: "1972",
     title: "Pong",
     imageUrl: "./gifs/pong.gif",
-    description: "Pong (marketed as PONG) is one of the earliest arcade video games and the very first sports arcade video game. It is a table tennis sports game featuring simple two-dimensional graphics.",
+    description: "PONG is one of the earliest arcade video games.",
     developer: "Atari Inc",
     platform: "Arcade",
     genre: "Sports",
