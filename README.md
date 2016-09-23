@@ -24,3 +24,7 @@ gameList: [
   }
 ]
 ```
+
+## Contributors    
+[André N. Darcie](https://github.com/AndreNDarcie)
+
