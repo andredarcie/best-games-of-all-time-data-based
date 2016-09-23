@@ -1,5 +1,5 @@
 # History of Video Games
-Timeline containing the most important games for generations.
+:video_game: Timeline containing the most important games for generations.
 
 ´games.js´ file represents the data of the games:
 <pre>
