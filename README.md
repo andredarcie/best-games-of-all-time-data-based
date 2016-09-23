@@ -26,5 +26,5 @@ gameList: [
 ```
 
 ## Contributors    
-[André N. Darcie](https://github.com/AndreNDarcie)
+[André N. Darcie](https://github.com/AndreNDarcie) - [Alexandre Peluchi](https://github.com/alexandrepeluchi)
 
