@@ -10,7 +10,7 @@ Read more about [here](https://en.wikipedia.org/wiki/History_of_video_games).
 ## How does it work?
 
 The ´games.js´ file represents the data of the games, for example:
-<pre>
+```javascript
 gameList: [
   {
     releaseYear: "1972",
@@ -23,4 +23,4 @@ gameList: [
     videoUrl: "https://www.youtube.com/embed/fiShX2pTz9A"
   }
 ]
-</pre>
+```
