@@ -1,5 +1,6 @@
 # History of Video Games
-:video_game: Timeline containing the most important games for generations.
+:video_game: Timeline containing the most important games for generations.   
+[Look here](http://andrendarcie.github.io/History-of-Video-Games)  
 
 ## Overview
 
