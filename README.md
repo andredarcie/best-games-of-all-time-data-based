@@ -1,12 +1,6 @@
 # History of Video Games
 :video_game: Timeline containing a list of games that have consistently been ranked among the best by video game jornalists, divided by generations. [Look here](http://andredarcie.github.io/history-of-video-games)  
 
-## Overview
-
-The history of video games goes as far back as the early 1950s, when academic computer scientists began designing simple games and simulations as part of their research. Video gaming did not reach mainstream popularity until the 1970s and 1980s, when video arcade games and gaming consoles using joysticks, buttons, and other controllers, along with graphics on computer screens and home computer games were introduced to the general public. Since the 1980s, video gaming has become a popular form of entertainment and a part of modern popular culture in most parts of the world. *(from en.wikipedia.org)*
-
-Read more about [here](https://en.wikipedia.org/wiki/History_of_video_games).
-
 ## How does it work?
 
 This game list is based on [List of video games considered the best](https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best).
