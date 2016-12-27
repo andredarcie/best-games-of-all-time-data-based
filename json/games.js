@@ -1025,6 +1025,16 @@ var games = [
       },
       {
         releaseYear: "2012",
+        title: "Hotline Miami",
+        imageUrl: "http://cdn.akamai.steamstatic.com/steam/apps/274170/ss_b2a76d2c605c7e54bf3e2ba43f835698d0bd6441.600x338.jpg?t=1466601522",
+        description: "In each stage, the player navigates a building from a top-down perspective, and the goal is almost always to kill every opponent therein.",
+        developer: "Dennaton Games",
+        platform: "PC",
+        genre: "Action",
+        videoUrl: "https://www.youtube.com/watch?v=2n_BinoS1Ug&t=29s"
+      },
+      {
+        releaseYear: "2012",
         title: "Journey",
         imageUrl: "http://static1.gamespot.com/uploads/screen_kubrick/mig/5/1/8/0/2115180-169_journey_gp_01_030112.jpg",
         description: "The player controls a robed figure in a vast desert, traveling towards a mountain in the distance.",
