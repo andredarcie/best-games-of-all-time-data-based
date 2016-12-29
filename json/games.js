@@ -1045,16 +1045,6 @@ var games = [
       },
       {
         releaseYear: "2013",
-        title: "The Last of Us",
-        imageUrl: "https://i.ytimg.com/vi/zbNmmK9Bhzw/maxresdefault.jpg",
-        description: "Players control Joel, a man tasked with escorting a young girl named Ellie across a post-apocalyptic United States.",
-        developer: "Naughty Dog",
-        platform: "PlayStation 3",
-        genre: "Action-adventure, survival horror",
-        videoUrl: "https://www.youtube.com/embed/aUZ3MKvUjx8"
-      },
-      {
-        releaseYear: "2013",
         title: "Grand Theft Auto V",
         imageUrl: "./gifs/gtav.gif",
         description: "Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three criminals and their efforts to commit heists while under pressure from a government agency.",
@@ -1063,6 +1053,16 @@ var games = [
         genre: "First-person shooter",
         videoUrl: "https://www.youtube.com/embed/2H9wiUqJiws"
       },
+      {
+        releaseYear: "2013",
+        title: "The Last of Us",
+        imageUrl: "https://i.ytimg.com/vi/zbNmmK9Bhzw/maxresdefault.jpg",
+        description: "Players control Joel, a man tasked with escorting a young girl named Ellie across a post-apocalyptic United States.",
+        developer: "Naughty Dog",
+        platform: "PlayStation 3",
+        genre: "Action-adventure, survival horror",
+        videoUrl: "https://www.youtube.com/embed/aUZ3MKvUjx8"
+      }
     ]
   },
   {
