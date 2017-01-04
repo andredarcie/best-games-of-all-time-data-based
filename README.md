@@ -21,6 +21,9 @@ gameList: [
 ]
 ```
 
+## TO-DO
+- Local images
+
 ## Contributors    
 [André N. Darcie](https://github.com/andredarcie) - [Alexandre Peluchi](https://github.com/alexandrepeluchi)
 
