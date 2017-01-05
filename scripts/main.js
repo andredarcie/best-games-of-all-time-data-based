@@ -44,7 +44,7 @@
 
     }
 
-    $(".container").html(html);
+    $("#container").html(html);
 
     var stickyOffset_first = $('.first-generation-title').offset().top, stickyOffset_second = $('.second-generation-title').offset().top, stickyOffset_third = $('.third-generation-title').offset().top;
     stickyOffset_fourth = $('.fourth-generation-title').offset().top, stickyOffset_fifth = $('.fifth-generation-title').offset().top, stickyOffset_sixth = $('.sixth-generation-title').offset().top;
