@@ -23,6 +23,7 @@ gameList: [
 
 ## TO-DO
 - Local images
+- Number of GOTY
 
 ## Contributors    
 [André N. Darcie](https://github.com/andredarcie) - [Alexandre Peluchi](https://github.com/alexandrepeluchi)
