@@ -25,6 +25,7 @@ gameList: [
 - Local images
 - Number of GOTY
 - Historical importance
+- Best of lists
 
 ## Contributors    
 [André N. Darcie](https://github.com/andredarcie) - [Alexandre Peluchi](https://github.com/alexandrepeluchi)
