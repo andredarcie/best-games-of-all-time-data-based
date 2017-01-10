@@ -26,6 +26,7 @@ gameList: [
 - Number of GOTY
 - Historical importance
 - Best of lists
+- Gif images
 
 ## Contributors    
 [André N. Darcie](https://github.com/andredarcie) - [Alexandre Peluchi](https://github.com/alexandrepeluchi)
