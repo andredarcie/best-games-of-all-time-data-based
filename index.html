@@ -24,7 +24,58 @@
           <a class="github-button" href="https://github.com/AndreNDarcie/History-of-Video-Games/archive/master.zip" aria-label="Download AndreNDarcie/GameList on GitHub">Download</a>
       </div>
 
-      <div id="container"></div>
+      <div id="container">
+        <article v-for="generation in games" v-bind:class="generation.class">
+          <h2 style='padding: 0; margin: 0'>
+            {{ generation.title }}
+            <span class='generation-period'>
+              {{ generation.period }}
+            </span>
+            <p>
+              <i class='fa fa-cube' aria-hidden='true'></i>
+                {{ generation.platforms + ' - ' }}
+                {{ generation.gameList.length + ' game(s).'  }}
+            </p>
+            <ol v-for="game in generation.gameList" style='list-style-type: none; padding: 10px; margin: 0px'>
+              <li style='text-align: center'>
+                <h4 class='game-release-year'>
+                  {{ game.releaseYear }}
+                </h4>
+                <h3 class='game-title'>
+                  {{ game.title }}
+                </h3>
+                <img class='game-image' v-bind:src="game.imageUrl" alt='game image'>
+                <p class='game-description'>
+                  {{ game.description }}
+                </p>
+                <a class='game-video' v-bind:href="game.videoUrl">
+                  <i class='fa fa-youtube-play' aria-hidden='true'></i> gameplay video </a>
+                <p>
+                  <i class='fa fa-users' aria-hidden='true'></i>
+                    {{ " developer: " + game.developer }}
+                </p>
+                <p>
+                  <i class='fa fa-cube' aria-hidden='true'></i>
+                    {{ " platform: " + game.platform }}
+                </p>
+                <p>
+                  <i class='fa fa-puzzle-piece' aria-hidden='true'></i>
+                    {{ " genre: " + game.genre }}
+                </p>
+                <p>
+                  <i class='fa fa-file-text' aria-hidden='true'></i>
+                    {{ "ranked best: " + game.lists }}
+                </p>
+                <p>
+                  <i class='fa fa-trophy' aria-hidden='true'></i>
+                    {{ " GOTY's: " + game.gotyNumbers }}
+                </p>
+              </li>
+              </li>
+            </ol>
+          </h2>
+        </article>
+      </div>
 
       <footer>
         <h1 class='title'>THE END...</h1>
@@ -33,7 +84,18 @@
       <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script src="json/games.js"></script>
-      <script src="scripts/main.js"></script>
+      <script src="https://unpkg.com/vue/dist/vue.js"></script>
+      <!-- <script src="scripts/main.js"></script> -->
+      <script>
+
+      var app = new Vue({
+        el: '#container',
+        data: {
+          games: games
+        }
+      })
+
+      </script>
 
   </body>
 </html>
