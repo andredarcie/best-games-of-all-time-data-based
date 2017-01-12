@@ -70,8 +70,9 @@
                 {{ generation.gameList.length + ' game(s).'  }}
               </p>
             </p>
-            <ol v-for="game in generation.gameList" style='list-style-type: none; padding: 10px; margin: 0px'>
-              <li style='text-align: center'>
+            <button class="button"> + </button>
+            <ol>
+              <li class="game-list" v-for="game in generation.gameList" style='list-style-type: none; padding: 10px; margin: 0px; text-align: center'>
                 <h4 class='game-release-year'>
                   {{ game.releaseYear }}
                 </h4>
@@ -105,7 +106,6 @@
                     {{ " GOTY's: " + game.gotyNumbers }}
                 </p>
               </li>
-              </li>
             </ol>
         </article>
 
@@ -125,7 +125,16 @@
             data: {
                 games: games
             }
-        })
+        });
+
+        $(document).ready(function(){
+          $(".button").click(function(){
+            $(this).next("ol").slideToggle();
+            $(this).text(function(i, text){
+                return text === "+" ? "-" : "+";
+            })
+          });
+        });
     </script>
 
 </body>
