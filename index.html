@@ -1,62 +1,74 @@
-﻿<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en-US">
-  <head>
-      <title>History of Video Games</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="Keywords" content="gamer,games,game list,game rank">
-	  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
-      <link rel="stylesheet" href="css/reset.css">
-      <link rel="stylesheet" href="css/style.css">
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
-        rel="stylesheet"
-        integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
-        crossorigin="anonymous">
-  </head>
-  <body>
 
-      <a class="fork-me" href="https://github.com/AndreNDarcie/History-of-Video-Games" target="_blank">
-        <img style="position: absolute; top: 0; right: 0; border: 0;"
-          src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"
-          alt="Fork me on GitHub" />
-      </a>
+<head>
+    <title>History of Video Games</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="gamer,games,game list,game rank">
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/generation.css">
+    <link rel="stylesheet" href="css/game.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+      crossorigin="anonymous">
+</head>
 
-      <h1 class="title">History of Video Games</h1>
+<body>
 
-      <div id="github-buttons">
-        <a class="github-button"
-          href="https://github.com/andredarcie/history-of-video-games/fork"
-          data-icon="octicon-repo-forked"
-          data-style="mega"
-          aria-label="Fork andredarcie/history-of-video-games on GitHub">Fork</a>
-        <a class="github-button"
-          href="https://github.com/andredarcie/history-of-video-games"
-          data-icon="octicon-star"
-          data-style="mega"
-          data-count-href="/andredarcie/history-of-video-games/stargazers"
-          data-count-api="/repos/andredarcie/history-of-video-games#stargazers_count"
-          data-count-aria-label="# stargazers on GitHub"
-          aria-label="Star andredarcie/history-of-video-games on GitHub">Star</a>
-        <a class="github-button"
-          href="https://github.com/andredarcie/history-of-video-games/subscription"
-          data-icon="octicon-eye" data-style="mega"
-          data-count-href="/andredarcie/history-of-video-games/watchers"
-          data-count-api="/repos/andredarcie/history-of-video-games#subscribers_count"
-          data-count-aria-label="# watchers on GitHub"
-          aria-label="Watch andredarcie/history-of-video-games on GitHub">Watch</a>
-      </div>
+    <div id="container">
 
-      <div id="container">
-        <article v-for="generation in games" v-bind:class="generation.class">
-          <h2 class="generation-title">
-            {{ generation.title }}
-            <span class='generation-period'>
+        <a class="fork-me" href="https://github.com/AndreNDarcie/History-of-Video-Games" target="_blank">
+            <img style="position: absolute; top: 0; right: 0; border: 0;"
+                 src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"
+                 alt="Fork me on GitHub" />
+        </a>
+
+        <h1 class="title">History of Video Games</h1>
+
+        <div id="github-buttons">
+            <a class="github-button"
+               href="https://github.com/andredarcie/history-of-video-games/fork"
+               data-icon="octicon-repo-forked"
+               data-style="mega"
+               aria-label="Fork andredarcie/history-of-video-games on GitHub">Fork</a>
+            <a class="github-button"
+               href="https://github.com/andredarcie/history-of-video-games"
+               data-icon="octicon-star"
+               data-style="mega"
+               data-count-href="/andredarcie/history-of-video-games/stargazers"
+               data-count-api="/repos/andredarcie/history-of-video-games#stargazers_count"
+               data-count-aria-label="# stargazers on GitHub"
+               aria-label="Star andredarcie/history-of-video-games on GitHub">Star</a>
+            <a class="github-button"
+               href="https://github.com/andredarcie/history-of-video-games/subscription"
+               data-icon="octicon-eye"
+               data-style="mega"
+               data-count-href="/andredarcie/history-of-video-games/watchers"
+               data-count-api="/repos/andredarcie/history-of-video-games#subscribers_count"
+               data-count-aria-label="# watchers on GitHub"
+               aria-label="Watch andredarcie/history-of-video-games on GitHub">Watch</a>
+        </div>
+
+        <article v-for="generation in games" v-bind:id="generation.class" class="generation">
+            <h2 class="generation-title">
+              {{ generation.title }}
+            </h2>
+            <span class="generation-period">
               {{ generation.period }}
             </span>
             <p>
-              <i class='fa fa-cube' aria-hidden='true'></i>
-                {{ generation.platforms + ' - ' }}
+              <p class="generation-platforms">
+                {{ generation.platforms }}
+                <i class='fa fa-cube' aria-hidden='true'></i>
+              </p>
+              <p class="generation-game-number">
                 {{ generation.gameList.length + ' game(s).'  }}
+              </p>
             </p>
             <ol v-for="game in generation.gameList" style='list-style-type: none; padding: 10px; margin: 0px'>
               <li style='text-align: center'>
@@ -95,27 +107,27 @@
               </li>
               </li>
             </ol>
-          </h2>
         </article>
-      </div>
 
-      <footer>
-        <h1 class='title'>THE END...</h1>
-      </footer>
+        <footer>
+            <h1 class='title'>THE END...</h1>
+        </footer>
+    </div>
 
-      <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <script src="json/games.js"></script>
-      <script src="https://unpkg.com/vue/dist/vue.js"></script>
-      <!-- <script src="scripts/main.js"></script> -->
-      <script>
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="json/games.js"></script>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <!-- <script src="scripts/main.js"></script> -->
+    <script>
         var app = new Vue({
-          el: '#container',
-          data: {
-            games: games
-          }
+            el: '#container',
+            data: {
+                games: games
+            }
         })
-      </script>
+    </script>
 
-  </body>
+</body>
+
 </html>

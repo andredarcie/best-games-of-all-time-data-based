@@ -1,13 +1,7 @@
-body {
+#container {
     background-color: #3498db;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-}
-
-.fixed {
-  position: fixed;
-  top:0; left:0;
-  width: 100%;
 }
 
 .title {
@@ -16,92 +10,16 @@ body {
     margin-right: 30%;
     text-align: center;
     color: white;
-    font-size: 60px;
+    font-size: 80px;
+    font-weight: bold;
     text-shadow:2px 3px 0 rgba(0,0,0,.11);
 }
 
 #github-buttons {
     background-color: #2980b9;
-    height: 50px;
-    padding-left: 43%;
-    padding-top: 1%;
+    text-align: center;
+    padding: 1%;
 }
-
-.first-generation, .first-generation-title{
-  background-color:#1dd2af;
-}
-
-.second-generation, .second-generation-title{
-  background-color:#2ecc71;
-}
-
-.third-generation, .third-generation-title{
-  background-color:#27ae60;
-}
-
-.fourth-generation, .fourth-generation-title{
-  background-color:#3498db;
-}
-
-.fifth-generation, .fifth-generation-title{
-  background-color:#2980b9;
-}
-
-.sixth-generation, .sixth-generation-title{
-  background-color:#9b59b6;
-}
-
-.seventh-generation, .seventh-generation-title{
-  background-color:#8e44ad;
-}
-
-.eighth-generation, .eighth-generation-title{
-  background-color:#34495e;
-}
-
-.generation-title {
-  padding: 0;
-  margin: 0;
-}
-
-.generation-period {
-  font-size: 60%;
-}
-
-/*
-    <=== Game ===>
-*/
-.game-release-year {
-  color: white;
-  padding: 0px;
-  margin: 0px;
-}
-
-.game-title {
-  color: white;
-  font-size: 30px;
-  padding: 0px;
-  margin: 0px;
-}
-
-.game-description {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.game-image {
-  width:128px;
-  height:128px;
-  border-radius: 10px;
-}
-
-.game-video {
-  text-decoration: none;
-  color: #eb6e60
-}
-/*
-    <=== Footer ===>
-*/
 
 footer {
     width: 100%;
@@ -111,8 +29,6 @@ footer {
     float: left;
     position: relative;
 }
-
-
 
 @media (max-width: 767px)
 {

@@ -1,0 +1,28 @@
+.game-release-year {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+.game-title {
+  color: white;
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.game-description {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.game-image {
+  width:128px;
+  height:128px;
+  border-radius: 10px;
+}
+
+.game-video {
+  text-decoration: none;
+  color: #eb6e60
+}

@@ -1,0 +1,49 @@
+#first-generation {
+  background-color:#1dd2af;
+}
+
+#second-generation {
+  background-color:#2ecc71;
+}
+
+#third-generation {
+  background-color:#27ae60;
+}
+
+#fourth-generation {
+  background-color:#3498db;
+}
+
+#fifth-generation {
+  background-color:#2980b9;
+}
+
+#sixth-generation {
+  background-color:#9b59b6;
+}
+
+#seventh-generation {
+  background-color:#8e44ad;
+}
+
+#eighth-generation {
+  background-color:#34495e;
+}
+
+.generation {
+  padding: 1%;
+  margin: 0;
+}
+
+.generation-title {
+  font-size: 250%;
+  float: left;
+  display: block;
+  margin-right: 2%;
+  width: auto;
+}
+
+.generation-period {
+  display: block;
+  font-size: 130%;
+}
