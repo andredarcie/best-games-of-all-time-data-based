@@ -60,11 +60,9 @@ body {
   background-color:#34495e;
 }
 
-.title-generation {
-    color: white;
-    text-align: left;
-    padding: 5px;
-    margin: 0;
+.generation-title {
+  padding: 0;
+  margin: 0;
 }
 
 .generation-period {
