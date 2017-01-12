@@ -53,7 +53,9 @@
                data-count-aria-label="# watchers on GitHub"
                aria-label="Watch andredarcie/history-of-video-games on GitHub">Watch</a>
         </div>
-
+        <div class="filters">
+          <button id="slider-all" class="button"> - ALL </button>
+        </div>
         <article v-for="generation in games" v-bind:id="generation.class" class="generation">
             <h2 class="generation-title">
               {{ generation.title }}
@@ -70,7 +72,7 @@
                 {{ generation.gameList.length + ' game(s).'  }}
               </p>
             </p>
-            <button class="button"> + </button>
+            <button class="slider button"> - </button>
             <ol>
               <li class="game-list" v-for="game in generation.gameList" style='list-style-type: none; padding: 10px; margin: 0px; text-align: center'>
                 <h4 class='game-release-year'>
@@ -128,10 +130,24 @@
         });
 
         $(document).ready(function(){
-          $(".button").click(function(){
+          $(".slider").click(function(){
             $(this).next("ol").slideToggle();
             $(this).text(function(i, text){
                 return text === "+" ? "-" : "+";
+            })
+          });
+
+          $("#slider-all").click(function(){
+            $(this).text(function(i, text){
+                if (text === "+ ALL"){
+                  $(".slider").text("-");
+                  $("ol").slideDown();
+                  return "- ALL";
+                } else {
+                  $(".slider").text("+");
+                  $("ol").slideUp();
+                  return "+ ALL";
+                }
             })
           });
         });
