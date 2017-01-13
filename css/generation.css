@@ -30,6 +30,13 @@
   background-color:#34495e;
 }
 
+.game-list {
+  list-style-type: none; 
+  padding: 10px; 
+  margin: 0px; 
+  text-align: center;
+}
+
 .button {
     background-color: #2E2E2E;
     border: none;
