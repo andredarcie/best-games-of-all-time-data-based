@@ -1,5 +1,5 @@
 # History of Video Games
-:video_game: Timeline containing a list of games that have consistently been ranked among the best by video game jornalists, divided by generations. [Look here](http://andredarcie.github.io/history-of-video-games)  
+:video_game: Timeline containing a list of games that have consistently been ranked among the best by video game jornalists, divided by generations. Made with VueJS. [Look here](http://andredarcie.github.io/history-of-video-games)  
 
 ## How does it work?
 
