@@ -25,7 +25,7 @@ gameList: [
 - Local images
 - Number of GOTY
 - Historical importance
-- Best of lists
+- Ranked best, based on this [list](https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best)
 - Gif images
 
 ## Contributors    
