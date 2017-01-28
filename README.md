@@ -23,7 +23,7 @@ gameList: [
 
 ## TO-DO
 - Local images
-- Number of GOTY
+- Number of GOTY, based on [this](http://gotypicks.blogspot.com.br/) blog
 - Historical importance
 - Ranked best, based on this [list](https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best)
 - Gif images
