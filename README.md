@@ -26,7 +26,7 @@ gameList: [
 - Number of GOTY, based on [this](http://gotypicks.blogspot.com.br/) blog
 - Historical importance
 - Ranked best, based on this [list](https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best)
-- Gif images
+- Gif images [this site](http://giphy.com/)
 
 ## Contributors    
 [André N. Darcie](https://github.com/andredarcie) - [Alexandre Peluchi](https://github.com/alexandrepeluchi)
