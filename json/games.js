@@ -656,14 +656,14 @@ var games = [
         videoUrl: "https://www.youtube.com/embed/lS95VQccfa8"
       },
       {
-        releaseYear: "2001",
+        releaseYear: "2000",
         title: "Perfect Dark",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/en/2/23/Halo_-_Combat_Evolved_(screencap).jpg",
-        description: "Halo is set in the twenty-sixth century, with the player assuming the role of the Master Chief, a cybernetically enhanced supersoldier.",
-        developer: "Bungie",
-        platform: "Xbox",
-        genre: "First-person shooter",
-        videoUrl: "https://www.youtube.com/embed/1HKb4mpc6J4"
+        imageUrl: "https://upload.wikimedia.org/wikipedia/en/a/af/Perfect_Dark_Gameplay.jpg",
+        description: "Perfect Dark is a first-person shooter in which players control Carrington Institute agent Joanna Dark through a series of levels collected together into missions.",
+        developer: "Rare",
+        platform: "Nintendo 64",
+        genre: "First-person shooter, stealth",
+        videoUrl: "https://www.youtube.com/embed/7d8Ol_J6Gso"
       },
       {
         releaseYear: "2001",
