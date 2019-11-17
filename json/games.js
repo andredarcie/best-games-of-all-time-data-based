@@ -1073,6 +1073,16 @@ var games = [
     gameList: [
       {
         releaseYear: "2015",
+        title: "Bloodborne",
+        imageUrl: "./gifs/bloodborne.gif",
+        description: "The game is played from a third-person perspective. Players control a customizable protagonist and the gameplay is focused on weapons-based combat and exploration.",
+        developer: "From Software",
+        platform: "PlayStation 4",
+        genre: "Action role-playing",
+        videoUrl: "https://www.youtube.com/embed/VJyc-sD1DiY"
+      },
+      {
+        releaseYear: "2015",
         title: "The Witcher 3: Wild Hunt",
         imageUrl: "http://s2.glbimg.com/jpO8JhDRRDOQtRjfgbvHTawUMiI=/695x0/s.glbimg.com/po/tt2/f/original/2015/05/28/the-witcher-3-wild-hunt-bug-experiencia-missoes-quests.jpg",
         description: "Played in a third-person perspective, players control protagonist Geralt of Rivia, a monster hunter known as a witcher, who sets out on a long journey through the Northern Kingdoms.",
@@ -1080,6 +1090,16 @@ var games = [
         platform: "PC, PS4, Xbox One",
         genre: "Action role-playing",
         videoUrl: "https://www.youtube.com/embed/N4ony2r0QFs"
+      },
+      {
+        releaseYear: "2016",
+        title: "Inside",
+        imageUrl: "./gifs/inside.gif",
+        description: "Inside is a puzzle platformer. The player character is an unnamed boy who explores a surreal and mostly monochromatic environment presented as a 2.5D platform game.",
+        developer: "Playdead",
+        platform: "Xbox One, Microsoft Windows, PlayStation 4, Nintendo Switch, iOS",
+        genre: "Platform",
+        videoUrl: "https://www.youtube.com/embed/h1FU-T2EsVA"
       }
     ]
   }
