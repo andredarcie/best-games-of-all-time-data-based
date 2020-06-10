@@ -2,7 +2,7 @@ var games = [
   {
     title: "First Generation",
     period: "1972–1978",
-    platforms: "Home Pong, Color TV",
+    platforms: "Arcade, Home Pong, Color TV",
     class: "first-generation",
     gameList: [
       {
@@ -14,6 +14,16 @@ var games = [
         platform: "Arcade",
         genre: "Sports",
         videoUrl: "https://www.youtube.com/embed/fiShX2pTz9A"
+      },
+      {
+        releaseYear: "1977",
+        title: "Zork",
+        imageUrl: "",
+        description: "Zork is one of the earliest interactive fiction computer games.",
+        developer: "Infocom",
+        platform: "PDP-10",
+        genre: "Text adventure",
+        videoUrl: "https://youtu.be/PWQDccL0aXM"
       }
     ]
   },
@@ -322,7 +332,7 @@ var games = [
       {
         releaseYear: "1993",
         title: "The Legend of Zelda: Link's Awakening",
-        imageUrl: "http://somosnintendo.com/wp-content/uploads/2014/06/67645-Legend_of_Zelda_The_-_Links_Awakening_DX_USA_Europe_Rev_A-2-thumb.png",
+        imageUrl: "",
         description: "After the events of Oracle of Ages and Oracle of Seasons, the hero Link travels abroad to train for further threats. A storm destroys his boat at sea, and he washes ashore on Koholint Island.",
         developer: "Nintendo EAD",
         platform: "Game Boy",
@@ -332,7 +342,7 @@ var games = [
       {
         releaseYear: "1993",
         title: "Gunstar Heroes",
-        imageUrl: "http://filmesegames.com.br/wp-content/uploads/2014/01/gunstar_heroes-1.jpg",
+        imageUrl: "",
         description: "The Western version of the game storyline is different from the Japanese version. In both storylines, there is a God-like but evil robot, Golden Silver, that has the potential to cause extreme ruin.",
         developer: "Treasure",
         platform: "Genesis/Mega Drive",
@@ -362,7 +372,7 @@ var games = [
       {
         releaseYear: "1994",
         title: "Final Fantasy VI",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/en/d/df/WikibattleFF6.PNG",
+        imageUrl: "",
         description: "Final Fantasy VI takes place on a large, unnamed world. During the course of the game, its geography and landscape change due to various developments in the game's plot.",
         developer: "Square",
         platform: "Super NES",
@@ -402,7 +412,7 @@ var games = [
       {
         releaseYear: "1995",
         title: "Super Mario World 2: Yoshi's Island",
-        imageUrl: "http://proplayers.com.br/wp-content/uploads/2015/01/Super-Mario-World-2.jpg",
+        imageUrl: "",
         description: "Yoshi's Island is a two-dimensional side-scrolling platformer in which players help friendly dinosaurs known as Yoshis escort Baby Mario safely through 48 levels across six worlds.",
         developer: "Nintendo EAD",
         platform: "Super NES",
@@ -718,7 +728,7 @@ var games = [
       {
         releaseYear: "2001",
         title: "Advance Wars",
-        imageUrl: "http://gamingmemoirs.co.uk/wp-content/uploads/2013/11/Advance-Wars-Screenshot.jpg?w=600",
+        imageUrl: "",
         description: "The story involves Orange Star Army's efforts in battling the other countries' armies, where Orange Star commanding officer Andy is accused of attacking the other countries' troops for no reason.",
         developer: "Intelligent Systems",
         platform: "Game Boy Advance",
@@ -738,7 +748,7 @@ var games = [
       {
         releaseYear: "2001",
         title: "Silent Hill 2",
-        imageUrl: "http://guide2games.org/wp-content/uploads/2008/03/silenthill2-4.jpg",
+        imageUrl: "",
         description: "It centers on James Sunderland, who enters the town after receiving a letter written by his deceased wife, saying she is waiting for him in their 'special place' in Silent Hill.",
         developer: "Konami CET",
         platform: "PlayStation 2",
@@ -818,7 +828,7 @@ var games = [
       {
         releaseYear: "2004",
         title: "World of Warcraft",
-        imageUrl: "https://i.ytimg.com/vi/q7OC_9jkrlc/maxresdefault.jpg",
+        imageUrl: "",
         description: "Players control a character avatar within a game world in third- or first-person view, exploring the landscape, fighting various monsters, completing quests, and interacting with non-player characters (NPCs) or other players.",
         developer: "Blizzard Entertainment",
         platform: "PC",
@@ -886,7 +896,7 @@ var games = [
       {
         releaseYear: "2007",
         title: "BioShock",
-        imageUrl: "http://images.br.sftcdn.net/br/scrn/64000/64999/bioshock-13.jpg",
+        imageUrl: "",
         description: "BioShock is set in 1960. The player guides the protagonist, Jack, after his airplane crashes in the ocean near the bathysphere terminus that leads to the underwater city of Rapture.",
         developer: "2K Boston",
         platform: "PC, PlayStation 3, Xbox 360",
@@ -896,7 +906,7 @@ var games = [
       {
         releaseYear: "2007",
         title: "Super Mario Galaxy",
-        imageUrl: "http://www.jogoscompletostorrent.com/wp-content/uploads/2015/10/Super-Mario-Galaxy-Wii-2.jpg",
+        imageUrl: "",
         description: "The story revolves around the protagonist, Mario, on a quest to rescue Princess Peach and save the universe from Bowser.",
         developer: "Nintendo EAD Tokyo",
         platform: "Wii",
@@ -966,7 +976,7 @@ var games = [
       {
         releaseYear: "2010",
         title: "Super Mario Galaxy 2",
-        imageUrl: "http://gamessaga.com/wp-content/uploads/2014/08/Super-Mario-Galaxy-2-game.jpg",
+        imageUrl: "",
         description: "The story follows Mario as he pursues the Koopa King, Bowser, into outer space, where he has imprisoned Princess Peach and taken control of the universe using Power Stars.",
         developer: "Nintendo EAD Tokyo",
         platform: "Wii, Wii U",
@@ -976,7 +986,7 @@ var games = [
       {
         releaseYear: "2010",
         title: "Red Dead Redemption",
-        imageUrl: "http://images-cdn.moviepilot.com/images/c_scale,h_675,w_1200/t_mp_quality/k5rmlrnf7r2zijnv3jrm/red-dead-redemption-2-looks-like-this-plot-leak-wasn-t-from-rockstar-red-dead-redemptio-469426.jpg",
+        imageUrl: "",
         description: "The game, set during the decline of the American Frontier in the year 1911, follows John Marston, a former outlaw whose wife and son are taken hostage by the government.",
         developer: "Rockstar San Diego",
         platform: "PlayStation 3, Xbox 360",
@@ -1068,7 +1078,7 @@ var games = [
   {
     title: "Eighth Generation",
     period: "2012–present",
-    platforms: "Xbox One, Wii U, Nintendo 3DS, PlayStation 4, PlayStation Vita",
+    platforms: "Xbox One, Wii U, Nintendo Switch, Nintendo 3DS, PlayStation 4, PlayStation Vita",
     class: "eighth-generation",
     gameList: [
       {
@@ -1100,6 +1110,26 @@ var games = [
         platform: "Xbox One, Microsoft Windows, PlayStation 4, Nintendo Switch, iOS",
         genre: "Platform",
         videoUrl: "https://www.youtube.com/embed/h1FU-T2EsVA"
+      },
+      {
+        releaseYear: "2016",
+        title: "Overwatch",
+        imageUrl: "",
+        description: "Overwatch is an online team-based game generally played as a first-person shooter.",
+        developer: "Blizzard Entertainment",
+        platform: "PC, PlayStation 4, Xbox One",
+        genre: "First-person shooter",
+        videoUrl: "https://www.youtube.com/embed/uimhe1pb3S8"
+      },
+      {
+        releaseYear: "2017",
+        title: "The Legend of Zelda: Breath of the Wild",
+        imageUrl: "",
+        description: "Breath of the Wild is an action-adventure game set in an open world where players are tasked with exploring the kingdom of Hyrule while controlling Link.",
+        developer: "Nintendo",
+        platform: "Nintendo Switch, Wii U",
+        genre: "Action-adventure",
+        videoUrl: "https://www.youtube.com/embed/FMhI2QvQa8c"
       }
     ]
   }

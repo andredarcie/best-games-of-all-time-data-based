@@ -81,7 +81,9 @@
                 <h3 class='game-title'>
                   {{ game.title }}
                 </h3>
-                <img class='game-image' v-bind:src="game.imageUrl" alt='game image'>
+                <span v-if="game.imageUrl">
+                  <img class='game-image' v-bind:src="game.imageUrl" alt='game image'>
+                </span>
                 <p class='game-description'>
                   {{ game.description }}
                 </p>
