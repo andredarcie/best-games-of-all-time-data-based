@@ -1,4 +1,6 @@
-# History of Video Games
+# Definite Best Games Of All Times
+> Based on data analysis
+
 :video_game: Timeline containing a list of games that have consistently been ranked among the best by video game jornalists, divided by generations. [Look here](http://andredarcie.github.io/history-of-video-games). Made with [VueJS](https://github.com/vuejs/vue).
 
 ## How does it work?
@@ -27,7 +29,4 @@ gameList: [
 - Historical importance Tag
 - Ranked best, based on this [list](https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best)
 - Gif images [this site](http://giphy.com/)
-
-## Contributors    
-[André N. Darcie](https://github.com/andredarcie) - [Alexandre Peluchi](https://github.com/alexandrepeluchi)
 
