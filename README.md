@@ -7,13 +7,13 @@ It is an open source project that aggregates multiple lists of "the best/most in
 ## How does it work?
 The project uses web crawler and scraping techniques to aggregate multiple lists of influential sources and combines everything into one public dataset
 
-[Dataset on Kaggle](https://www.kaggle.com/andredarcie/list-of-video-games-considered-the-best)
+[Dataset on Kaggle](https://www.kaggle.com/andredarcie/list-of-video-games-considered-the-best)  
 [This Project Website](https://andredarcie.github.io/best-games-of-all-times/)
 
 ## Data sources used
 
-✅ - Already in use
-⬜️ - To-do
+✅ - Already in use  
+⬜️ - To-do  
 *Page rank* - is based on [Alexa](https://www.alexa.com/) that quantify websites based on a combined measure of page views and unique site users
 
 |   | Source | url | Page rank |
