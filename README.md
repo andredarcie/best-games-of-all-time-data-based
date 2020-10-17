@@ -16,13 +16,13 @@ The project uses web crawler and scraping techniques to aggregate multiple lists
 ⬜️ - To-do  
 *Page rank* - is based on [Alexa](https://www.alexa.com/) that quantify websites based on a combined measure of page views and unique site users (last updated on 09-27-20)
 
-|   | Source | Url | Year | Page rank |
-|---|------|-----|-----|-----|
+|   | Source | Url | Year | Page rank | Extracted data |
+|---|------|-----|-----|-----|-----|
 |✅ | [Wikipedia](https://www.wikipedia.org/) | [link](https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best)  | 2020 | [#617](https://www.alexa.com/siteinfo/ign.com) |
 |⬜️ | [Metacrict](https://www.metacritic.com) | [link](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) | 2020 | [#2,404](https://www.alexa.com/siteinfo/metacritic.com) |
 |⬜️ | [Opencrict](https://opencritic.com) | [link](https://opencritic.com/browse/all)  | 2020 | [#45,148](https://www.alexa.com/siteinfo/opencritic.com) |
 |⬜️ | [IGN](https://www.ign.com) | [link](https://www.ign.com/lists/top-100-games) | 2019 | [#617](https://www.alexa.com/siteinfo/ign.com) |
-|⬜️ | [Time Magazine](https://time.com) | [link](https://time.com/4458554/best-video-games-all-time/) | 2016 | [#1,477](https://www.alexa.com/siteinfo/time.com) |
+|⬜️ | [Time Magazine](https://time.com) | [link](https://time.com/4458554/best-video-games-all-time/) | 2016 | [#1,477](https://www.alexa.com/siteinfo/time.com) | [.csv](data/time-magazine.csv)
 |⬜️ | [Popular Mechanics](https://www.popularmechanics.com) | [link](https://www.popularmechanics.com/culture/gaming/g134/the-100-greatest-video-games-of-all-time/) | 2019 | [#6,592](https://www.alexa.com/siteinfo/popularmechanics.com) |
 |⬜️ | [Slant Magazine](https://www.slantmagazine.com) | [link](https://www.slantmagazine.com/games/the-100-best-video-games-of-all-time/) | 2020 | [#107,903](https://www.alexa.com/siteinfo/slantmagazine.com) |
 |⬜️ | [Game Designing](https://www.gamedesigning.org) | [link](https://www.gamedesigning.org/popular-video-games/) | 2020 | [#41,442](https://www.alexa.com/siteinfo/gamedesigning.org) |

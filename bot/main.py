@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import csv
 
 base_url = ''
 
@@ -60,4 +61,13 @@ def get_popular_mechanics():
         print(div)
 
 if __name__ == '__main__':
-    print(get_time_games())
+    time_games = get_time_games()
+    print(time_games)
+
+    with open('../data/time-magazine.csv', 'w', newline='') as myfile:
+        csv_out = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+        csv_out.writerow(['position', 'game_title'])
+
+        for row in time_games:
+            csv_out.writerow(row)
+            
