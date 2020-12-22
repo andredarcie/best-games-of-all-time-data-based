@@ -29,8 +29,10 @@ def get_ign_2019_games():
     divs = soup.find_all('div', {'class':'item-heading'})
 
     ign_games = []
+    game_position = 100
     for div in divs:
-        ign_games.append(div.find('a').getText())
+        ign_games.append(tuple((game_position, div.find('a').getText())))
+        game_position = game_position - 1
 
     return ign_games
 
@@ -60,14 +62,17 @@ def get_popular_mechanics():
         div = soup.find('div', {'class':'slideshow-slide-hed'})
         print(div)
 
-if __name__ == '__main__':
-    time_games = get_time_games()
-    print(time_games)
-
-    with open('../data/time-magazine.csv', 'w', newline='') as myfile:
+def save_csv_file(games, file_name):
+    with open('../extracted_data/' + file_name + '.csv', 'w', newline='') as myfile:
         csv_out = csv.writer(myfile, quoting=csv.QUOTE_ALL)
         csv_out.writerow(['position', 'game_title'])
 
-        for row in time_games:
-            csv_out.writerow(row)
+        for game in games:
+            csv_out.writerow(game)
+
+if __name__ == '__main__':
+    games = get_ign_2019_games()
+    save_csv_file(games, 'ign-2019')
+
+
             
