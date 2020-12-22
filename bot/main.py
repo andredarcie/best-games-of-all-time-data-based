@@ -52,6 +52,23 @@ def get_time_games():
     
     return time_games
 
+def get_metacrict():
+    base_url = "https://www.metacritic.com/browse/games/score/metascore/all/all/filtered"
+    headers = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
+
+    page = requests.get(base_url, headers=headers)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find_all('tr', attrs={'class': None})
+
+    metacrict_games = []
+    game_position = 1
+    for game in games:
+        metacrict_games.append(tuple((game_position, game.find('h3').text)))
+        game_position = game_position + 1
+
+    return metacrict_games
+
+
 def get_popular_mechanics():
     base_url = "https://www.popularmechanics.com/culture/gaming/g134/the-100-greatest-video-games-of-all-time/?slide="
     number_of_slides = 100
@@ -71,8 +88,8 @@ def save_csv_file(games, file_name):
             csv_out.writerow(game)
 
 if __name__ == '__main__':
-    games = get_ign_2019_games()
-    save_csv_file(games, 'ign-2019')
+    games = get_metacrict()
+    save_csv_file(games, 'metacrict-2020')
 
 
             

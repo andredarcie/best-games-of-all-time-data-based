@@ -18,7 +18,7 @@ The project uses web crawler and scraping techniques to aggregate multiple lists
 
 |   | Source | Url | Year | Page rank | Extracted data |
 |---|------|-----|-----|-----|-----|
-|⬜️ | [Metacrict](https://www.metacritic.com) | [link](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) | 2020 | [#2,404](https://www.alexa.com/siteinfo/metacritic.com) |
+|✅ | [Metacrict](https://www.metacritic.com) | [link](https://www.metacritic.com/browse/games/score/metascore/all/all/filtered) | 2020 | [#2,404](https://www.alexa.com/siteinfo/metacritic.com) | [.csv](extracted_data/metacrict-2020.csv)
 |⬜️ | [Opencrict](https://opencritic.com) | [link](https://opencritic.com/browse/all)  | 2020 | [#45,148](https://www.alexa.com/siteinfo/opencritic.com) |
 |✅ | [IGN](https://www.ign.com) | [link](https://www.ign.com/lists/top-100-games) | 2019 | [#617](https://www.alexa.com/siteinfo/ign.com) | [.csv](extracted_data/ign-2019.csv)
 |✅ | [Time Magazine](https://time.com) | [link](https://time.com/4458554/best-video-games-all-time/) | 2016 | [#1,477](https://www.alexa.com/siteinfo/time.com) | [.csv](extracted_data/time-magazine.csv)
