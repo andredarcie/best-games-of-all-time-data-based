@@ -113,6 +113,25 @@ def get_popular_mechanics():
     
     return popular_mechanics
 
+def get_slant_magazine():
+    base_url = "https://www.slantmagazine.com/games/the-100-best-video-games-of-all-time/"
+    number_of_pages = 10
+
+    slant_magazine_games = []
+
+    for page_number in range(1, number_of_pages + 1):
+        page = requests.get(f'{base_url}{page_number}')
+        soup = BeautifulSoup(page.content, 'html.parser')
+        games = soup.find_all('h2', attrs={'class': None}, limit=10)
+        
+        for game in games:
+            if game != None:
+                game = game.getText().replace("Ō", "O").split("(")[0]
+                game = game.split('.', 1)
+                slant_magazine_games.append(tuple((game[0], game[1].strip())))
+
+    return slant_magazine_games
+
 def save_csv_file(games, file_name):
     with open('../extracted_data/' + file_name + '.csv', 'w', newline='') as myfile:
         csv_out = csv.writer(myfile, quoting=csv.QUOTE_ALL)
@@ -122,8 +141,8 @@ def save_csv_file(games, file_name):
             csv_out.writerow(game)
 
 if __name__ == '__main__':
-    games = get_popular_mechanics()
-    save_csv_file(games, 'popular-mechanics')
+    games = get_slant_magazine()
+    save_csv_file(games, 'slant-magazine')
 
 
             
