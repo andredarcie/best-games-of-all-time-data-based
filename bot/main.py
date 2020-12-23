@@ -99,7 +99,7 @@ def get_popular_mechanics():
     for game in games:
         if game != None:
             game = game.getText().strip()
-            if "Super Mario World (1990)" in game:
+            if "Super Mario World (1990)" in game or "Dungeon Master (1987)" in game:
                 popular_mechanics.append(tuple(game.split(':', 1)))
             else:
                 popular_mechanics.append(tuple(game.split('.', 1)))
