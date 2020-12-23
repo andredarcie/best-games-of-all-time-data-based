@@ -90,11 +90,21 @@ def get_popular_mechanics():
     base_url = "https://www.popularmechanics.com/culture/gaming/g134/the-100-greatest-video-games-of-all-time/?slide="
     number_of_slides = 100
 
-    for current_slide in range(1, number_of_slides, step=10):
-        page = requests.get(f'{base_url}{current_slide}')
-        soup = BeautifulSoup(page.content, 'html.parser')
-        div = soup.find('div', {'class':'slideshow-slide-hed'})
-        print(div)
+    #for current_slide in range(1, number_of_slides, 10):
+    page = requests.get(f'{base_url}{99}')
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.findAll('div', {'class':'slideshow-slide-hed'})
+
+    popular_mechanics = []
+    for game in games:
+        if game != None:
+            game = game.getText().strip()
+            if "Super Mario World (1990)" in game:
+                popular_mechanics.append(tuple(game.split(':', 1)))
+            else:
+                popular_mechanics.append(tuple(game.split('.', 1)))
+    
+    return popular_mechanics
 
 def save_csv_file(games, file_name):
     with open('../extracted_data/' + file_name + '.csv', 'w', newline='') as myfile:
@@ -105,8 +115,8 @@ def save_csv_file(games, file_name):
             csv_out.writerow(game)
 
 if __name__ == '__main__':
-    games = get_opencrict()
-    save_csv_file(games, 'opencrict-2020')
+    games = get_popular_mechanics()
+    save_csv_file(games, 'popular-mechanics')
 
 
             
