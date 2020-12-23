@@ -89,20 +89,27 @@ def get_opencrict():
 def get_popular_mechanics():
     base_url = "https://www.popularmechanics.com/culture/gaming/g134/the-100-greatest-video-games-of-all-time/?slide="
     number_of_slides = 100
-
-    #for current_slide in range(1, number_of_slides, 10):
-    page = requests.get(f'{base_url}{99}')
-    soup = BeautifulSoup(page.content, 'html.parser')
-    games = soup.findAll('div', {'class':'slideshow-slide-hed'})
-
     popular_mechanics = []
-    for game in games:
-        if game != None:
-            game = game.getText().strip()
-            if "Super Mario World (1990)" in game or "Dungeon Master (1987)" in game:
-                popular_mechanics.append(tuple(game.split(':', 1)))
-            else:
-                popular_mechanics.append(tuple(game.split('.', 1)))
+
+    for current_slide in range(1, number_of_slides, 5):
+        page = requests.get(f'{base_url}{current_slide}')
+        soup = BeautifulSoup(page.content, 'html.parser')
+        games = soup.findAll('div', {'class':'slideshow-slide-hed'})
+
+        for game in games:
+            if game != None:
+                game = game.getText().strip()
+                game = game.split("(")[0]
+                split_by = '.'
+
+                if "Super Mario World" in game or "Dungeon Master" in game or "Uncharted 2: Among Thieves" in game:
+                    split_by = ':'
+                
+                game_tuple = game.split(split_by, 1)
+                game_tuple = tuple((game_tuple[0], game_tuple[1].strip().replace('é', 'e')))
+                found = [item for item in popular_mechanics if item[1] == game_tuple[1]]
+                if found == []:
+                    popular_mechanics.append(game_tuple)
     
     return popular_mechanics
 
