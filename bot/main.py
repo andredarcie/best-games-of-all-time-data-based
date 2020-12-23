@@ -68,6 +68,23 @@ def get_metacrict():
 
     return metacrict_games
 
+def get_opencrict():
+    base_url = "https://opencritic.com/browse/all?page="
+    number_of_pages = 5
+
+    opencrict_games = []
+    game_position = 1
+
+    for page_number in range(number_of_pages + 1):
+        page = requests.get(f'{base_url}{page_number}')
+        soup = BeautifulSoup(page.content, 'html.parser')
+        games = soup.find_all('div', {'class':'banner-game-description'})
+        
+        for game in games:
+            opencrict_games.append(tuple((game_position, game.find('strong').text)))
+            game_position = game_position + 1
+
+    return opencrict_games
 
 def get_popular_mechanics():
     base_url = "https://www.popularmechanics.com/culture/gaming/g134/the-100-greatest-video-games-of-all-time/?slide="
@@ -88,8 +105,8 @@ def save_csv_file(games, file_name):
             csv_out.writerow(game)
 
 if __name__ == '__main__':
-    games = get_metacrict()
-    save_csv_file(games, 'metacrict-2020')
+    games = get_opencrict()
+    save_csv_file(games, 'opencrict-2020')
 
 
             
