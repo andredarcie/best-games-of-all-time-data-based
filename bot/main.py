@@ -132,6 +132,20 @@ def get_slant_magazine():
 
     return slant_magazine_games
 
+def get_game_designing():
+    base_url = "https://www.gamedesigning.org/popular-video-games/"
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find_all('h2', attrs={'class': None})
+
+    games_designing = []
+    for game in games:
+        game_tuple = game.getText().split('.', 1)
+        games_designing.append(tuple((game_tuple[0], game_tuple[1].strip())))
+
+    return games_designing
+
+
 def save_csv_file(games, file_name):
     with open('../extracted_data/' + file_name + '.csv', 'w', newline='') as myfile:
         csv_out = csv.writer(myfile, quoting=csv.QUOTE_ALL)
@@ -141,8 +155,8 @@ def save_csv_file(games, file_name):
             csv_out.writerow(game)
 
 if __name__ == '__main__':
-    games = get_slant_magazine()
-    save_csv_file(games, 'slant-magazine')
+    games = get_game_designing()
+    save_csv_file(games, 'game-designing')
 
 
             
