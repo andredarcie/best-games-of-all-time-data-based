@@ -152,11 +152,22 @@ def save_csv_file(games, file_name):
         csv_out.writerow(['position', 'game_title'])
 
         for game in games:
-            csv_out.writerow(game)
+            csv_out.writerow('{score: ' + game[0] + ',game_title: ' + game[1] + 'number_of_citations:' + game[] 3,
+    citations: [
+      'IGN',
+      'Metacrict'
+    ]
+  },)
 
 if __name__ == '__main__':
-    games = get_game_designing()
-    save_csv_file(games, 'game-designing')
+    #games = get_game_designing()
+    #save_csv_file(games, 'game-designing')
+
+    while True:
+        print()
+        choice = input("What is your choice? ")
+        print(choice)
+        break
 
 
             
