@@ -45,12 +45,12 @@ for game in games:
         if get_unique_game_title(game_title) == final_game[2]:
             final_game[0] = final_game[0] + abs(int(position) - 100)
             final_game[3] = final_game[3] + 1
-            final_game[4].append(origin)
+            final_game[4].append(origin  + ' at ' + position + ' position ' )
             found = True
 
     if not found:
         key = get_unique_game_title(game_title)
-        final_games_list.append([abs(int(position) - 100), game_title, key, 1, list([origin])])
+        final_games_list.append([abs(int(position) - 100), game_title, key, 1, list([origin + ' at ' + position + ' position ' ])])
 
 
 final_games_list = order_games(final_games_list)

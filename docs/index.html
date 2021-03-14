@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Keywords" content="gamer,games,game list,game rank">
     <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/generation.css">
     <link rel="stylesheet" href="css/game.css">
@@ -29,7 +28,7 @@
         </a>
 
         <h1 class="title">Definite Best Games of All Time</h1>
-
+        <h2>The project uses web crawler and scraping techniques to aggregate multiple lists of influential sources and combines everything into one public list</h2>
         <div id="github-buttons">
             <a class="github-button"
                href="https://github.com/andredarcie/history-of-video-games/fork"
@@ -56,11 +55,21 @@
         <div class="filters">
           <button id="slider-all" class="button"> - ALL </button>
         </div>
+        <article>
+          <ul>
+            <li>The final score is generated from the position in which the game appears in the multiple lists. </li>
+            <li>For example, position 1 equals 99 score points and position 2 equals 98 score porints and so on consecutively.</li>
+            <li>Takes (position where the game appears) minus 100 and turn the result value into positive</li>
+            <li>The final score is the sum of all scores</li>
+          </ul>
+        </article>
         <article v-for="game in games" class="generation">
-            <p class="score">{{ game.score }} </p>
+            <p class="score">Final score: {{ game.score }} </p>
             <h2 class="game-title"> {{ game.game_title }} </h2>
-            <p>Citations: {{ game.number_of_citations }} </p>
-            <p>Sources: {{ game.citations }} </p>
+            <h3>Lists in which it was cited ({{ game.number_of_citations }}):</h3>
+            <ul>
+              <li v-for="citations in game.citations">{{ citations }}</li>
+            </ul>
         </article>
         <footer>
             <h1 class='title'>THE END...</h1>
