@@ -147,27 +147,16 @@ def get_game_designing():
 
 
 def save_csv_file(games, file_name):
-    with open('../extracted_data/' + file_name + '.csv', 'w', newline='') as myfile:
+    with open('../extracted_data/' + file_name + '.csv', 'w', encoding='utf8', newline='') as myfile:
         csv_out = csv.writer(myfile, quoting=csv.QUOTE_ALL)
         csv_out.writerow(['position', 'game_title'])
 
         for game in games:
-            csv_out.writerow('{score: ' + game[0] + ',game_title: ' + game[1] + 'number_of_citations:' + game[] 3,
-    citations: [
-      'IGN',
-      'Metacrict'
-    ]
-  },)
+            csv_out.writerow(game)
 
 if __name__ == '__main__':
-    #games = get_game_designing()
-    #save_csv_file(games, 'game-designing')
-
-    while True:
-        print()
-        choice = input("What is your choice? ")
-        print(choice)
-        break
+    games = get_slant_magazine_games()
+    save_csv_file(games, 'slant_magazine_games')
 
 
             
