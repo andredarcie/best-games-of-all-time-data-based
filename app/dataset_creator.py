@@ -12,14 +12,14 @@ def get_unique_game_title(game_title):
     return (''.join(e for e in game_title if e.isalnum())).lower()
 
 def order_games(game_list):
-    final_games_list.sort(key=lambda x: x[0], reverse=True)
+    game_list.sort(key=lambda x: x[0], reverse=True)
     return game_list
 
 def generate_csv_file(game_list):
     with open('../docs/json/games.js', 'w', newline='') as myfile:
         myfile.write('var games = [')
 
-        for game in final_games_list:
+        for game in game_list:
             myfile.write(f"""
               {{
                     score: {game[0]},
@@ -54,5 +54,8 @@ for game in games:
 
 
 final_games_list = order_games(final_games_list)
-generate_csv_file(final_games_list)
+
+games_with_more_than_one_citation = list(filter(lambda game : game[3] > 1, final_games_list))
+
+generate_csv_file(games_with_more_than_one_citation)
 
