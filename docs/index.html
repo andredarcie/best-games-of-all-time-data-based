@@ -3,7 +3,7 @@
 <html lang="en-US">
 
 <head>
-    <title>History of Video Games</title>
+    <title>🏆 Definite Best Games of All Time</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Keywords" content="gamer,games,game list,game rank">
@@ -28,7 +28,7 @@
                  alt="Fork me on GitHub" />
         </a>
 
-        <h1 class="title">History of Video Games</h1>
+        <h1 class="title">Definite Best Games of All Time</h1>
 
         <div id="github-buttons">
             <a class="github-button"
@@ -56,63 +56,12 @@
         <div class="filters">
           <button id="slider-all" class="button"> - ALL </button>
         </div>
-        <article v-for="generation in games" v-bind:id="generation.class" class="generation">
-            <h2 class="generation-title">
-              {{ generation.title }}
-            </h2>
-            <span class="generation-period">
-              {{ generation.period }}
-            </span>
-            <p>
-              <p class="generation-platforms">
-                {{ generation.platforms }}
-                <i class='fa fa-cube' aria-hidden='true'></i>
-              </p>
-              <p class="generation-game-number">
-                {{ generation.gameList.length + ' game(s).'  }}
-              </p>
-            </p>
-            <button class="slider button"> - </button>
-            <ol>
-              <li class="game-list" v-for="game in generation.gameList">
-                <h4 class='game-release-year'>
-                  {{ game.releaseYear }}
-                </h4>
-                <h3 class='game-title'>
-                  {{ game.title }}
-                </h3>
-                <span v-if="game.imageUrl">
-                  <img class='game-image' v-bind:src="game.imageUrl" alt='game image'>
-                </span>
-                <p class='game-description'>
-                  {{ game.description }}
-                </p>
-                <a class='game-video' v-bind:href="game.videoUrl">
-                  <i class='fa fa-youtube-play' aria-hidden='true'></i> gameplay video </a>
-                <p>
-                  <i class='fa fa-users' aria-hidden='true'></i>
-                    {{ " developer: " + game.developer }}
-                </p>
-                <p>
-                  <i class='fa fa-cube' aria-hidden='true'></i>
-                    {{ " platform: " + game.platform }}
-                </p>
-                <p>
-                  <i class='fa fa-puzzle-piece' aria-hidden='true'></i>
-                    {{ " genre: " + game.genre }}
-                </p>
-                <p>
-                  <i class='fa fa-file-text' aria-hidden='true'></i>
-                    {{ "ranked best: " + game.lists }}
-                </p>
-                <p>
-                  <i class='fa fa-trophy' aria-hidden='true'></i>
-                    {{ " GOTY's: " + game.gotyNumbers }}
-                </p>
-              </li>
-            </ol>
+        <article v-for="game in games" class="generation">
+            <p class="score">{{ game.score }} </p>
+            <h2 class="game-title"> {{ game.game_title }} </h2>
+            <p>Citations: {{ game.number_of_citations }} </p>
+            <p>Sources: {{ game.citations }} </p>
         </article>
-
         <footer>
             <h1 class='title'>THE END...</h1>
         </footer>
