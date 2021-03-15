@@ -63,8 +63,19 @@ def get_metacrict():
     metacrict_games = []
     game_position = 1
     for game in games:
-        metacrict_games.append(tuple((game_position, game.find('h3').text)))
-        game_position = game_position + 1
+        game_title = game.find('h3').text
+
+        found = False
+
+        if len(metacrict_games) > 0:
+            for game in metacrict_games:
+                if game[1] == game_title:
+                    found = True
+
+        if not found:
+            metacrict_games.append(tuple((game_position, game_title)))
+            game_position = game_position + 1
+
 
     return metacrict_games
 
@@ -146,6 +157,63 @@ def get_game_designing():
     return games_designing
 
 
+def get_esquire():
+    base_url = "https://www.esquire.com/lifestyle/g26572573/best-video-games-ranked/"
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find_all('span', attrs={'class': 'listicle-slide-hed-text'})
+    
+    extracted_games = []
+    for game in games:
+        game_tuple = game.getText().split('.', 1)
+        extracted_games.append(tuple((game_tuple[0], game_tuple[1].strip())))
+
+    return extracted_games
+
+def get_polygon():
+    base_url = "https://www.polygon.com/features/2017/12/1/16707720/the-500-best-games-of-all-time-100-1"
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find_all('h2', attrs={'class': None})
+    
+    extracted_games = []
+    for game in games:
+        game_tuple = game.find_all('strong')[-1].getText().split('.', 1)
+        if game_tuple[0] == 'Half-Life 2':
+            game_tuple = ['14', 'Half-Life 2']
+
+        extracted_games.append(tuple((game_tuple[0], game_tuple[1].strip())))
+    
+    return extracted_games
+
+def get_hiconsumption():
+    base_url = "https://hiconsumption.com/best-video-games-of-all-time/"
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find_all('strong', attrs={'class': None}, limit=50)
+    
+    extracted_games = []
+    for game in games:
+        game_tuple = game.getText().split('.', 1)
+        extracted_games.append(tuple((game_tuple[0], game_tuple[1].strip())))
+    
+    return extracted_games
+
+def get_theage():
+    base_url = "https://www.theage.com.au/technology/the-50-best-games-20051006-gdm6uh.html"
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find_all('p', attrs={'class': None})
+    
+    extracted_games = []
+    for game in games:
+        if game.find('strong'):
+            game_tuple = game.find('strong').getText().split('.', 1)
+            extracted_games.append(tuple((game_tuple[0], game_tuple[1].split('(', 1)[0].strip())))
+    
+    return extracted_games
+
+
 def save_csv_file(games, file_name):
     with open('../extracted_data/' + file_name + '.csv', 'w', encoding='utf8', newline='') as myfile:
         csv_out = csv.writer(myfile, quoting=csv.QUOTE_ALL)
@@ -155,8 +223,8 @@ def save_csv_file(games, file_name):
             csv_out.writerow(game)
 
 if __name__ == '__main__':
-    games = get_slant_magazine_games()
-    save_csv_file(games, 'slant_magazine_games')
+    games = get_theage()
+    save_csv_file(games, 'theage')
 
 
             
