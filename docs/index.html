@@ -56,6 +56,20 @@
           <button id="slider-all" class="button"> - ALL </button>
         </div>
         <article>
+          <h2>About:</h2>
+          <ul>
+            <li>All data is extracted automatically by scripts written in Python. </li>
+          </ul>
+        </article>
+        <h2>Rules:</h2>
+          <ul>
+            <li>The game has to be mentioned in at least three different sources</li>
+            <li>The source must be among the 500,000 most popular sites according to the Alexa Page Rank</li>
+            <li>The position in which the game appears matters more than the number of mentions</li>
+            <li>Games are ordered by their final score</li>
+          </ul>
+        <article>
+          <h2>Final Score:</h2>
           <ul>
             <li>The final score is generated from the position in which the game appears in the multiple lists. </li>
             <li>For example, position 1 equals 99 score points and position 2 equals 98 score porints and so on consecutively.</li>
@@ -63,6 +77,10 @@
             <li>The final score is the sum of all scores</li>
           </ul>
         </article>
+        <h2>Data source ({{ sources.length }})</h2>
+        <ul>
+          <li v-for="source in sources"> {{ source }} </li>
+        </ul>
         <article v-for="game in games" class="generation">
             <p class="score">Final score: {{ game.score }} </p>
             <h2 class="game-title"> {{ game.game_title }} </h2>
@@ -85,7 +103,8 @@
         var app = new Vue({
             el: '#container',
             data: {
-                games: games
+                games: games,
+                sources: sources,
             }
         });
 
