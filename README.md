@@ -25,11 +25,11 @@ The project uses web crawler and scraping techniques to aggregate multiple lists
 |✅ | [Popular Mechanics](https://www.popularmechanics.com) | [link](https://www.popularmechanics.com/culture/gaming/g134/the-100-greatest-video-games-of-all-time/) | 2019 | [#6,592](https://www.alexa.com/siteinfo/popularmechanics.com) | [.csv](extracted_data/popular-mechanics.csv)
 |✅ | [Slant Magazine](https://www.slantmagazine.com) | [link](https://www.slantmagazine.com/games/the-100-best-video-games-of-all-time/) | 2020 | [#107,903](https://www.alexa.com/siteinfo/slantmagazine.com) | [.csv](extracted_data/slant-magazine.csv)
 |✅ | [Game Designing](https://www.gamedesigning.org) | [link](https://www.gamedesigning.org/popular-video-games/) | 2020 | [#41,442](https://www.alexa.com/siteinfo/gamedesigning.org) | [.csv](extracted_data/game-designing.csv)
-|⬜️ | [Esquire](https://www.esquire.com) | [link](https://www.esquire.com/lifestyle/g26572573/best-video-games-ranked/) | 2020 | [#3,607](https://www.alexa.com/siteinfo/esquire.com) |
-|⬜️ | [Polygon](https://www.polygon.com) | [link](https://www.polygon.com/features/2017/12/1/16707720/the-500-best-games-of-all-time-100-1) | 2017 | [#2,097](https://www.alexa.com/siteinfo/polygon.com) |
-|⬜️ | [Hiconsumption](https://hiconsumption.com) | [link](https://hiconsumption.com/best-video-games-of-all-time/) | 2019 | [#18,902](https://www.alexa.com/siteinfo/hiconsumption.com) |
+|✅ | [Esquire](https://www.esquire.com) | [link](https://www.esquire.com/lifestyle/g26572573/best-video-games-ranked/) | 2020 | [#3,607](https://www.alexa.com/siteinfo/esquire.com) | [.csv](extracted_data/esquire.csv)
+|✅ | [Polygon](https://www.polygon.com) | [link](https://www.polygon.com/features/2017/12/1/16707720/the-500-best-games-of-all-time-100-1) | 2017 | [#2,097](https://www.alexa.com/siteinfo/polygon.com) | [.csv](extracted_data/polygon.csv)
+|✅ | [Hiconsumption](https://hiconsumption.com) | [link](https://hiconsumption.com/best-video-games-of-all-time/) | 2019 | [#18,902](https://www.alexa.com/siteinfo/hiconsumption.com) |
 |⬜️ | [Entertainment Weekly](https://ew.com) | [link](https://ew.com/article/2003/05/13/we-rank-100-greatest-videogames/) | 2003 | |
-|⬜️ | [The Age](https://www.theage.com.au) | [link](https://www.theage.com.au/technology/the-50-best-games-20051006-gdm6uh.html) | 2005 | |
+|✅ | [The Age](https://www.theage.com.au) | [link](https://www.theage.com.au/technology/the-50-best-games-20051006-gdm6uh.html) | 2005 | |
 |⬜️ | [Yahoo Video Games](http://uk.videogames.games.yahoo.com) | [link](https://web.archive.org/web/20050801002743/http://uk.videogames.games.yahoo.com/specials/100games/) | 2005 | |
 |⬜️ | [Gamespot](http://www.gamespot.com) | [link](https://web.archive.org/web/20080726155641/http://www.gamespot.com/gamespot/features/all/greatestgames/index.html) | 2008 | |
 |⬜️ | [Empire](http://www.empireonline.com) | [link](https://web.archive.org/web/20110515221956/http://www.empireonline.com/100greatestgames/) | 2011 | |
