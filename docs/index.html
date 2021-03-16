@@ -86,7 +86,11 @@
             <h2 class="game-title"> {{ game.game_title }} </h2>
             <h3>Lists in which it was cited ({{ game.number_of_citations }}):</h3>
             <ul>
-              <li v-for="citations in game.citations">{{ citations }}</li>
+              <li v-for="citation in game.citations">
+                (Score: {{ citation[0] }}) 
+                <a :href="citation[5]" target="_blank">(file)</a> {{ citation[4] }} -  
+                <a :href="citation[3]" target="_blank">{{ citation[2] }}</a> at {{ citation[1] }} position
+              </li>
             </ul>
         </article>
         <footer>
