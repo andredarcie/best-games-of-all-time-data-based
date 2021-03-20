@@ -84,6 +84,7 @@
         <article v-for="game in games" class="generation">
             <p class="score">Final score: {{ game.score }} </p>
             <h2 class="game-title"> {{ game.game_title }} </h2>
+            <img v-bind:src="game.image_url" /> 
             <h3>Lists in which it was cited ({{ game.number_of_citations }}):</h3>
             <ul>
               <li v-for="citation in game.citations">
