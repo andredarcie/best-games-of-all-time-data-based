@@ -214,6 +214,21 @@ def get_theage():
     return extracted_games
 
 
+def get_thetoptens():
+    base_url = "https://www.thetoptens.com/video-games/"
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find_all('b', attrs={'data-user': None}, limit=10)
+
+    position = 1
+    extracted_games = []
+    for game in games:
+        extracted_games.append(tuple((position, game.getText().strip())))
+        position += 1
+
+    return extracted_games
+
+
 def save_csv_file(games, file_name):
     with open('../extracted_data/' + file_name + '.csv', 'w', encoding='utf8', newline='') as myfile:
         csv_out = csv.writer(myfile, quoting=csv.QUOTE_ALL)
@@ -222,9 +237,43 @@ def save_csv_file(games, file_name):
         for game in games:
             csv_out.writerow(game)
 
+
+def get_edge():
+    base_url = "https://nintendoeverything.com/edge-ranks-the-top-100-greatest-games-2017-edition/"
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find_all('p')[8]
+    games = games.getText().splitlines()
+
+    extracted_games = []
+    for game in games:
+        if game == '62: Persona 4 Golden':
+            game = game.replace(':', '.')
+
+        game_tuple = game.split('.', 1)
+        extracted_games.append(tuple((game_tuple[0], game_tuple[1].strip())))
+
+    return extracted_games
+
+
+def get_guinness():
+    base_url = "https://www.eurogamer.net/articles/guinness-lists-top-50-games-of-all-time"
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find('ol', attrs={'class': None}).find_all('li')
+
+    position = 1
+    extracted_games = []
+    for game in games:
+        extracted_games.append(tuple((position, game.getText().strip())))
+        position += 1
+    
+    return extracted_games
+
+
 if __name__ == '__main__':
-    games = get_theage()
-    save_csv_file(games, 'theage')
+    games = get_guinness()
+    save_csv_file(games, 'guinness')
 
 
             
