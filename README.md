@@ -50,12 +50,12 @@ The project uses web crawler and scraping techniques to aggregate multiple lists
 |⬜️ | [Game Informer](https://www.gameinformer.com) | [link](https://www.gameinformer.com/b/features/archive/2009/11/16/game-informer-s-top-100-games-of-all-time-circa-issue-100.aspx) | 2009 | |
 |⬜️ | [Watch Mojo](https://watchmojo.com) | [link](https://watchmojo.com/video/id/12775) | 2014 |
 |⬜️ | [The Best 100 Lists](http://www.thebest100lists.com) | [link](http://www.thebest100lists.com/best100videogames/) | 2011 | |
-|⬜️ | [Guinness](https://www.guinnessworldrecords.com/) | [link](https://www.eurogamer.net/articles/guinness-lists-top-50-games-of-all-time) | 2009 | |
+|✅ | [Guinness](https://www.guinnessworldrecords.com/) | [link](https://www.eurogamer.net/articles/guinness-lists-top-50-games-of-all-time) | 2009 | | [.csv](extracted_data/guinness.csv)
 |⬜️ | [Action Button](http://www.actionbutton.net) | [link](http://www.actionbutton.net/?p=385) | 2009 | |
-|⬜️ | [Edge](https://www.gamesradar.com/edge/) | [link](https://nintendoeverything.com/edge-ranks-the-top-100-greatest-games-2017-edition/) | 2017 | |
+|✅ | [Edge](https://www.gamesradar.com/edge/) | [link](https://nintendoeverything.com/edge-ranks-the-top-100-greatest-games-2017-edition/) | 2017 | | [.csv](extracted_data/edge.csv)
 |⬜️ | [Game Rankings](http://www.gamerankings.com) | [link](https://www.webcitation.org/6S3NFO81u?url=http://www.gamerankings.com/browse.html) | 2014 | |
 |⬜️ | [Ranker (By Users)](https://www.ranker.com) | [link](https://www.ranker.com/crowdranked-list/the-best-games-of-all-time) | 2020 | |
-|⬜️ | [The Top Tens](https://www.thetoptens.com) | [link](https://www.thetoptens.com/video-games/) | 2020 | |
+|✅ | [The Top Tens](https://www.thetoptens.com) | [link](https://www.thetoptens.com/video-games/) | 2020 | | [.csv](extracted_data/the_top_tens.csv)
 
 ## How to contribute?
 Working in progress...
