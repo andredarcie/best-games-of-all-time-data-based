@@ -265,7 +265,20 @@ def get_guinness():
     position = 1
     extracted_games = []
     for game in games:
-        extracted_games.append(tuple((position, game.getText().strip())))
+        game_title = game.getText().strip()
+
+        game_title = game_title.replace('Zelda Ocarina of Time', 'The Legend of Zelda: Ocarina of Time')
+        game_title = game_title.replace('Resident Evil IV', 'Resident Evil 4')
+        game_title = game_title.replace('GoldenEye', 'GoldenEye 007')
+        game_title = game_title.replace('Halo', 'Halo: Combat Evolved')
+        game_title = game_title.replace('GTA San Andreas', 'Grand Theft Auto: San Andreas')
+        game_title = game_title.replace('Zelda: A Link to the Past', 'The Legend of Zelda: A Link to the Past')
+        game_title = game_title.replace('GTA Vice City', 'Grand Theft Auto: Vice City')
+        game_title = game_title.replace('Elder Scrolls IV: Oblivion', 'The Elder Scrolls IV: Oblivion')
+        game_title = game_title.replace('God of War', 'God of War (2005)')
+
+
+        extracted_games.append(tuple((position, game_title)))
         position += 1
     
     return extracted_games

@@ -74,7 +74,7 @@ for csv_file_name in csv_files:
 for game in games:
     position, game_title, source = game
     found = False
-    source_data = [get_score(position), position, source[0], source[1], source[2], 'https://github.com/andredarcie/best-games-of-all-time/blob/master/extracted_data/' + source[3].strip()]
+    source_data = [get_score(position), position, source[0], source[1], source[2], 'https://github.com/andredarcie/best-games-of-all-time-data-based/blob/master/extracted_data/' + source[3].strip()]
     #source_description = '(score: ' + get_score(position) + ') ' + origin[0]  + ' at ' + position + ' position.'
 
     for final_game in final_games_list:
