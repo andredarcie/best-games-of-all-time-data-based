@@ -283,10 +283,27 @@ def get_guinness():
     
     return extracted_games
 
+def get_ranker_by_users():
+    base_url = "https://www.ranker.com/crowdranked-list/the-best-games-of-all-time"
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find_all('h2', attrs={'class': None})
+    
+    position = 1
+    extracted_games = []
+    for game in games:
+        game_title = game.find('a').getText().strip()
+        game_title = game_title.replace('God of War', 'God of War (2005)')
+        extracted_games.append(tuple((position, game_title)))
+        position += 1
+    
+    return extracted_games
+
+
 
 if __name__ == '__main__':
-    games = get_guinness()
-    save_csv_file(games, 'guinness')
+    games = get_ranker_by_users()
+    save_csv_file(games, 'ranker_by_users')
 
 
             
