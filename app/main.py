@@ -182,7 +182,10 @@ def get_polygon():
         if game_tuple[0] == 'Half-Life 2':
             game_tuple = ['14', 'Half-Life 2']
 
-        extracted_games.append(tuple((game_tuple[0], game_tuple[1].strip())))
+        game_title = game_tuple[1].strip()
+        game_title = game_title.replace('Street Fighter 2', 'Street Fighter II')
+
+        extracted_games.append(tuple((game_tuple[0], game_title)))
     
     return extracted_games
 
@@ -267,17 +270,7 @@ def get_guinness():
     for game in games:
         game_title = game.getText().strip()
 
-        game_title = game_title.replace('Zelda Ocarina of Time', 'The Legend of Zelda: Ocarina of Time')
-        game_title = game_title.replace('Resident Evil IV', 'Resident Evil 4')
-        game_title = game_title.replace('GoldenEye', 'GoldenEye 007')
-        game_title = game_title.replace('Halo', 'Halo: Combat Evolved')
-        game_title = game_title.replace('GTA San Andreas', 'Grand Theft Auto: San Andreas')
-        game_title = game_title.replace('Zelda: A Link to the Past', 'The Legend of Zelda: A Link to the Past')
-        game_title = game_title.replace('GTA Vice City', 'Grand Theft Auto: Vice City')
-        game_title = game_title.replace('Elder Scrolls IV: Oblivion', 'The Elder Scrolls IV: Oblivion')
-        game_title = game_title.replace('God of War', 'God of War (2005)')
-
-
+        game_title = fix_game_title(game_title)
         extracted_games.append(tuple((position, game_title)))
         position += 1
     
@@ -293,17 +286,65 @@ def get_ranker_by_users():
     extracted_games = []
     for game in games:
         game_title = game.find('a').getText().strip()
-        game_title = game_title.replace('God of War', 'God of War (2005)')
+
+        game_title = fix_game_title(game_title)
         extracted_games.append(tuple((position, game_title)))
         position += 1
     
     return extracted_games
 
+def get_the_wrap():
+    base_url = 'https://www.thewrap.com/the-30-best-video-games-of-all-time-photos/'
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find_all('strong', attrs={'class': None})
+    
+    extracted_games = []
+    for game in games:
+        data = game.getText().split('.', 1)
 
+        game_title = data[1].split('(', 1)[0].replace('"', '').strip()
+
+        game_title = fix_game_title(game_title)
+        extracted_games.append(tuple((data[0], game_title)))
+    
+    return extracted_games
+
+def revista_gq():
+    base_url = 'https://www.revistagq.com/noticias/tecnologia/galerias/los-100-mejores-videojuegos-de-la-historia/8951?image=5ca5e9980a5ae617822a2138'
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    games = soup.find_all('span', attrs={'class': 'gallery-slide-caption__hed-text'})
+
+    extracted_games = []
+    for game in games:
+        data = game.getText().split('.', 1)
+        game_title = data[1].split('(', 1)[0].replace('"', '').strip()
+
+        game_title = fix_game_title(game_title)
+        extracted_games.append(tuple((data[0], game_title)))
+
+    return extracted_games
+
+def fix_game_title(game_title):
+    game_title = game_title.replace('FTL', 'FTL: Faster Than Light')
+    game_title = game_title.replace('The Witcher 3', 'The Witcher 3: Wild Hunt')
+    game_title = game_title.replace('Zelda Ocarina of Time', 'The Legend of Zelda: Ocarina of Time')
+    game_title = game_title.replace('Resident Evil IV', 'Resident Evil 4')
+    game_title = game_title.replace('GoldenEye', 'GoldenEye 007')
+    game_title = game_title.replace('Halo', 'Halo: Combat Evolved')
+    game_title = game_title.replace('GTA San Andreas', 'Grand Theft Auto: San Andreas')
+    game_title = game_title.replace('Zelda: A Link to the Past', 'The Legend of Zelda: A Link to the Past')
+    game_title = game_title.replace('GTA Vice City', 'Grand Theft Auto: Vice City')
+    game_title = game_title.replace('Elder Scrolls IV: Oblivion', 'The Elder Scrolls IV: Oblivion')
+    game_title = game_title.replace('God of War', 'God of War (2005)')
+    game_title = game_title.replace('Skyrim', 'The Elder Scrolls V: Skyrim')
+
+    return game_title
 
 if __name__ == '__main__':
-    games = get_ranker_by_users()
-    save_csv_file(games, 'ranker_by_users')
+    games = revista_gq()
+    save_csv_file(games, 'revista_gq')
 
 
             

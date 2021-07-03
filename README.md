@@ -31,7 +31,6 @@ The project uses web crawler and scraping techniques to aggregate multiple lists
 |⬜️ | [Entertainment Weekly](https://ew.com) | [link](https://ew.com/article/2003/05/13/we-rank-100-greatest-videogames/) | 2003 | |
 |✅ | [The Age](https://www.theage.com.au) | [link](https://www.theage.com.au/technology/the-50-best-games-20051006-gdm6uh.html) | 2005 | |
 |⬜️ | [Yahoo Video Games](http://uk.videogames.games.yahoo.com) | [link](https://web.archive.org/web/20050801002743/http://uk.videogames.games.yahoo.com/specials/100games/) | 2005 | |
-|⬜️ | [Gamespot](http://www.gamespot.com) | [link](https://web.archive.org/web/20080726155641/http://www.gamespot.com/gamespot/features/all/greatestgames/index.html) | 2008 | |
 |⬜️ | [Empire](http://www.empireonline.com) | [link](https://web.archive.org/web/20110515221956/http://www.empireonline.com/100greatestgames/) | 2011 | |
 |⬜️ | [FHM](http://www.fhm.com) | [link](https://web.archive.org/web/20130430073137/http://www.fhm.com/reviews/console-games/fhms-100-greatest-games-of-all-time-20090901) | 2010 | |
 |⬜️ | [Jeux Video](https://www.jeuxvideo.com) | [link](https://www.jeuxvideo.com/dossier/694881/top-100-des-meilleurs-jeux-de-tous-les-temps/) | 2017 | |
@@ -42,9 +41,8 @@ The project uses web crawler and scraping techniques to aggregate multiple lists
 |⬜️ | [Gaming Bolt](https://gamingbolt.com) | [link](https://gamingbolt.com/top-98-greatest-video-games-ever-made) | 2013 |
 |⬜️ | [The Irish Times](https://www.irishtimes.com) | [link](https://www.irishtimes.com/culture/the-50-best-videogames-of-all-time-1.1610521) | 2013 | |
 |⬜️ | [HG101](http://www.hardcoregaming101.net) | [link](http://www.hardcoregaming101.net/books/hg101-presents-the-200-best-video-games-of-all-time/) | 2015 | |
-|⬜️ | [The Wrap](https://www.thewrap.com) | [link](https://www.thewrap.com/the-30-best-video-games-of-all-time-photos/) | 2017 |
-|⬜️ | [Power Unlimited](https://www.pu.nl) | [link](https://www.pu.nl/artikelen/feature/top-100-games-aller-tijden/) | 2018 | |
-|⬜️ | [Revista GQ](https://www.revistagq.com) | [link](https://www.revistagq.com/noticias/tecnologia/galerias/los-100-mejores-videojuegos-de-la-historia/8951) | 2018 |
+|✅ | [The Wrap](https://www.thewrap.com) | [link](https://www.thewrap.com/the-30-best-video-games-of-all-time-photos/) | 2017 |
+|✅ | [Revista GQ](https://www.revistagq.com) | [link](https://www.revistagq.com/noticias/tecnologia/galerias/los-100-mejores-videojuegos-de-la-historia/8951) | 2018 |
 |⬜️ | [Game FAQs](https://gamefaqs.gamespot.com) | [link](https://gamefaqs.gamespot.com/top10/2656-the-top-10-games-of-all-time-according-to-gamefaqs-top-10) | 2010 | |
 |⬜️ | [Game Informer (Readers Choice)](https://www.gameinformer.com) | [link](https://www.gameinformer.com/b/features/archive/2018/03/19/readers-choice-top-300-games-of-all-time.aspx) | 2018 | |
 |⬜️ | [Game Informer](https://www.gameinformer.com) | [link](https://www.gameinformer.com/b/features/archive/2009/11/16/game-informer-s-top-100-games-of-all-time-circa-issue-100.aspx) | 2009 | |
@@ -54,7 +52,7 @@ The project uses web crawler and scraping techniques to aggregate multiple lists
 |⬜️ | [Action Button](http://www.actionbutton.net) | [link](http://www.actionbutton.net/?p=385) | 2009 | |
 |✅ | [Edge](https://www.gamesradar.com/edge/) | [link](https://nintendoeverything.com/edge-ranks-the-top-100-greatest-games-2017-edition/) | 2017 | | [.csv](extracted_data/edge.csv)
 |⬜️ | [Game Rankings](http://www.gamerankings.com) | [link](https://www.webcitation.org/6S3NFO81u?url=http://www.gamerankings.com/browse.html) | 2014 | |
-|⬜️ | [Ranker (By Users)](https://www.ranker.com) | [link](https://www.ranker.com/crowdranked-list/the-best-games-of-all-time) | 2020 | |
+|✅ | [Ranker (By Users)](https://www.ranker.com) | [link](https://www.ranker.com/crowdranked-list/the-best-games-of-all-time) | 2020 | |
 |✅ | [The Top Tens](https://www.thetoptens.com) | [link](https://www.thetoptens.com/video-games/) | 2020 | | [.csv](extracted_data/the_top_tens.csv)
 
 ## How to contribute?
