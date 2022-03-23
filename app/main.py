@@ -36,6 +36,22 @@ def get_ign_2019_games():
 
     return ign_games
 
+def get_ign_2022_games():
+    base_url = "https://www.ign.com/articles/the-best-100-video-games-of-all-time"
+    headers = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
+    
+    page = requests.get(base_url, headers=headers)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    divs = soup.find_all('h2', {'class': None})
+
+    ign_games = []
+    game_position = 100
+    for div in divs:
+        ign_games.append(tuple((game_position, div.find('strong').getText().split('.', 1)[1])))
+        game_position = game_position - 1
+
+    return ign_games
+
 def get_time_games():
     base_url = "https://time.com/4458554/best-video-games-all-time/"
 
@@ -343,8 +359,8 @@ def fix_game_title(game_title):
     return game_title
 
 if __name__ == '__main__':
-    games = revista_gq()
-    save_csv_file(games, 'revista_gq')
+    games = get_game_designing()
+    save_csv_file(games, 'metacrict-2022')
 
 
             

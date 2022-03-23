@@ -1,7 +1,7 @@
 "source","url","year","file"
-Metacrict, https://www.metacritic.com/browse/games/score/metascore/all/all/filtered, 2020, metacrict-2020.csv
+Metacrict 2022, https://www.metacritic.com/browse/games/score/metascore/all/all/filtered, 2022, metacrict-2022.csv
 Opencrict, https://opencritic.com/browse/all, 2020, opencrict-2020.csv
-IGN, https://www.ign.com/lists/top-100-games, 2019, ign-2019-games.csv
+IGN 2022, https://www.ign.com/articles/the-best-100-video-games-of-all-time, 2022, ign-2022-games.csv
 Time Magazine, https://time.com/4458554/best-video-games-all-time/, 2016, time-magazine.csv
 Popular Mechanics, https://www.popularmechanics.com/culture/gaming/g134/the-100-greatest-video-games-of-all-time/, 2019, popular-mechanics.csv
 Slant Magazine, https://www.slantmagazine.com/games/the-100-best-video-games-of-all-time/, 2020, slant-magazine.csv
