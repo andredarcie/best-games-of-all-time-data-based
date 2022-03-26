@@ -342,6 +342,52 @@ def revista_gq():
 
     return extracted_games
 
+def goty_awards_tracker():
+    base_url = 'https://www.gameawards.net/'
+
+    page = requests.get(base_url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+
+    divs = soup.find_all('div', attrs={'class': 'widget-content'})
+
+    urls = []
+
+    for div in divs:
+        a = div.find('a')
+
+        if a != None:
+            href = div.find('a').get("href")
+            if not 'rules' in href and not 'stats' in href and not 'twitter' in href:
+                urls.append(href)
+
+    extracted_games = []
+
+    for url in urls:
+        page = requests.get(url)
+        soup = BeautifulSoup(page.content, 'html.parser')
+
+        ul = soup.find('ul')
+        lis = ul.find_all('li')
+
+        for li in lis:
+            if li.find('span') != None:
+                text = li.find('span').getText()
+                if not 'Media Outlets' in text:
+                    game_title = ''
+                    number_goty = ''
+
+                    if "Middle-earth: Shadow of Mordor" in text or "Marvel's Spider-Man: Miles Morales" in text:
+                        game_title = '-'.join(text.split('-', 2)[0:2]).strip()
+                        number_goty = text.split('-', 2)[2].strip()
+                    else:
+                        game_title, number_goty = text.split('-', 1)
+
+                    extracted_games.append(tuple((game_title.strip(), number_goty.split('(')[0].strip())))
+
+    sorted_by_second = sorted(extracted_games, key = lambda x: int(x[1]), reverse=True)
+
+    return sorted_by_second
+
 def fix_game_title(game_title):
     game_title = game_title.replace('FTL', 'FTL: Faster Than Light')
     game_title = game_title.replace('The Witcher 3', 'The Witcher 3: Wild Hunt')
@@ -359,8 +405,8 @@ def fix_game_title(game_title):
     return game_title
 
 if __name__ == '__main__':
-    games = get_game_designing()
-    save_csv_file(games, 'metacrict-2022')
+    games = goty_awards_tracker()
+    save_csv_file(games, 'goty_awards_tracker')
 
 
             
